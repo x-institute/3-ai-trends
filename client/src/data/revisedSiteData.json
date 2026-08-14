@@ -1,0 +1,1481 @@
+{
+  "research_date": "2026-08-14",
+  "period": "March 2023\u2013July 2026 for full-month comparison; August 2026 partial where shown.",
+  "google": {
+    "label": "Worldwide Google Trends relative search-interest index",
+    "method_note": "ChatGPT, Gemini, and Claude were retrieved in one joint comparison and aggregated from weekly values to calendar-month means. Values are normalized indices, not search counts or market shares.",
+    "data": [
+      {
+        "month": "2023-03",
+        "ChatGPT": 16.8,
+        "Gemini": 1.0,
+        "Claude": 1.0
+      },
+      {
+        "month": "2023-04",
+        "ChatGPT": 18.6,
+        "Gemini": 1.0,
+        "Claude": 1.0
+      },
+      {
+        "month": "2023-05",
+        "ChatGPT": 19.2,
+        "Gemini": 1.0,
+        "Claude": 1.0
+      },
+      {
+        "month": "2023-06",
+        "ChatGPT": 16.8,
+        "Gemini": 1.0,
+        "Claude": 1.2
+      },
+      {
+        "month": "2023-07",
+        "ChatGPT": 14.6,
+        "Gemini": 1.0,
+        "Claude": 1.0
+      },
+      {
+        "month": "2023-08",
+        "ChatGPT": 15.0,
+        "Gemini": 1.0,
+        "Claude": 1.0
+      },
+      {
+        "month": "2023-09",
+        "ChatGPT": 17.8,
+        "Gemini": 1.0,
+        "Claude": 1.0
+      },
+      {
+        "month": "2023-10",
+        "ChatGPT": 20.4,
+        "Gemini": 1.0,
+        "Claude": 1.0
+      },
+      {
+        "month": "2023-11",
+        "ChatGPT": 22.0,
+        "Gemini": 1.0,
+        "Claude": 1.0
+      },
+      {
+        "month": "2023-12",
+        "ChatGPT": 18.6,
+        "Gemini": 1.8,
+        "Claude": 1.0
+      },
+      {
+        "month": "2024-01",
+        "ChatGPT": 19.5,
+        "Gemini": 1.0,
+        "Claude": 1.0
+      },
+      {
+        "month": "2024-02",
+        "ChatGPT": 21.2,
+        "Gemini": 3.8,
+        "Claude": 1.0
+      },
+      {
+        "month": "2024-03",
+        "ChatGPT": 21.8,
+        "Gemini": 4.0,
+        "Claude": 1.6
+      },
+      {
+        "month": "2024-04",
+        "ChatGPT": 23.8,
+        "Gemini": 4.0,
+        "Claude": 1.0
+      },
+      {
+        "month": "2024-05",
+        "ChatGPT": 26.0,
+        "Gemini": 4.8,
+        "Claude": 1.0
+      },
+      {
+        "month": "2024-06",
+        "ChatGPT": 22.8,
+        "Gemini": 4.2,
+        "Claude": 1.2
+      },
+      {
+        "month": "2024-07",
+        "ChatGPT": 20.2,
+        "Gemini": 4.0,
+        "Claude": 1.2
+      },
+      {
+        "month": "2024-08",
+        "ChatGPT": 25.2,
+        "Gemini": 4.2,
+        "Claude": 1.2
+      },
+      {
+        "month": "2024-09",
+        "ChatGPT": 34.2,
+        "Gemini": 5.0,
+        "Claude": 2.0
+      },
+      {
+        "month": "2024-10",
+        "ChatGPT": 40.8,
+        "Gemini": 5.0,
+        "Claude": 2.0
+      },
+      {
+        "month": "2024-11",
+        "ChatGPT": 45.5,
+        "Gemini": 5.8,
+        "Claude": 2.0
+      },
+      {
+        "month": "2024-12",
+        "ChatGPT": 39.6,
+        "Gemini": 5.6,
+        "Claude": 1.8
+      },
+      {
+        "month": "2025-01",
+        "ChatGPT": 43.0,
+        "Gemini": 5.5,
+        "Claude": 2.0
+      },
+      {
+        "month": "2025-02",
+        "ChatGPT": 49.2,
+        "Gemini": 6.5,
+        "Claude": 2.2
+      },
+      {
+        "month": "2025-03",
+        "ChatGPT": 60.6,
+        "Gemini": 7.2,
+        "Claude": 2.4
+      },
+      {
+        "month": "2025-04",
+        "ChatGPT": 63.8,
+        "Gemini": 8.0,
+        "Claude": 2.2
+      },
+      {
+        "month": "2025-05",
+        "ChatGPT": 69.8,
+        "Gemini": 9.8,
+        "Claude": 3.2
+      },
+      {
+        "month": "2025-06",
+        "ChatGPT": 70.8,
+        "Gemini": 11.4,
+        "Claude": 3.2
+      },
+      {
+        "month": "2025-07",
+        "ChatGPT": 69.5,
+        "Gemini": 11.0,
+        "Claude": 3.0
+      },
+      {
+        "month": "2025-08",
+        "ChatGPT": 78.6,
+        "Gemini": 15.6,
+        "Claude": 3.8
+      },
+      {
+        "month": "2025-09",
+        "ChatGPT": 85.0,
+        "Gemini": 68.5,
+        "Claude": 3.2
+      },
+      {
+        "month": "2025-10",
+        "ChatGPT": 83.8,
+        "Gemini": 34.8,
+        "Claude": 4.0
+      },
+      {
+        "month": "2025-11",
+        "ChatGPT": 82.4,
+        "Gemini": 33.6,
+        "Claude": 4.0
+      },
+      {
+        "month": "2025-12",
+        "ChatGPT": 65.8,
+        "Gemini": 32.2,
+        "Claude": 3.5
+      },
+      {
+        "month": "2026-01",
+        "ChatGPT": 71.0,
+        "Gemini": 34.5,
+        "Claude": 5.2
+      },
+      {
+        "month": "2026-02",
+        "ChatGPT": 71.2,
+        "Gemini": 33.5,
+        "Claude": 8.2
+      },
+      {
+        "month": "2026-03",
+        "ChatGPT": 72.0,
+        "Gemini": 40.2,
+        "Claude": 16.0
+      },
+      {
+        "month": "2026-04",
+        "ChatGPT": 71.5,
+        "Gemini": 41.8,
+        "Claude": 18.2
+      },
+      {
+        "month": "2026-05",
+        "ChatGPT": 73.2,
+        "Gemini": 45.8,
+        "Claude": 18.8
+      },
+      {
+        "month": "2026-06",
+        "ChatGPT": 68.8,
+        "Gemini": 44.2,
+        "Claude": 19.2
+      },
+      {
+        "month": "2026-07",
+        "ChatGPT": 66.5,
+        "Gemini": 38.8,
+        "Claude": 16.0
+      },
+      {
+        "month": "2026-08",
+        "ChatGPT": 68.5,
+        "Gemini": 40.0,
+        "Claude": 15.0
+      }
+    ]
+  },
+  "github": {
+    "broad_declared_label": "New public, non-fork repositories matching the exact phrase \u201cAI agent\u201d in GitHub repository search",
+    "topic_label": "New repositories carrying GitHub\u2019s artificial-intelligence topic at retrieval",
+    "signed_commit_label": "Signed public default-branch coding-agent commits detected by the independent powerset tracker",
+    "method_note": "The three GitHub series are intentionally not combined. The broad self-description series is not a code-authorship measure; the topic series is retrospective; the signed-commit series misses unsigned and private activity. March 2025 and August 2026 have partial tracker coverage.",
+    "data": [
+      {
+        "month": "2023-03",
+        "broad_ai_declared_repositories_created": 49,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 502,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2023-04",
+        "broad_ai_declared_repositories_created": 100,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 446,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2023-05",
+        "broad_ai_declared_repositories_created": 143,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 501,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2023-06",
+        "broad_ai_declared_repositories_created": 106,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 387,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2023-07",
+        "broad_ai_declared_repositories_created": 128,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 403,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2023-08",
+        "broad_ai_declared_repositories_created": 128,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 439,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2023-09",
+        "broad_ai_declared_repositories_created": 125,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 426,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2023-10",
+        "broad_ai_declared_repositories_created": 165,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 410,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2023-11",
+        "broad_ai_declared_repositories_created": 139,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 417,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2023-12",
+        "broad_ai_declared_repositories_created": 158,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 398,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2024-01",
+        "broad_ai_declared_repositories_created": 183,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 390,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2024-02",
+        "broad_ai_declared_repositories_created": 164,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 425,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2024-03",
+        "broad_ai_declared_repositories_created": 226,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 410,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2024-04",
+        "broad_ai_declared_repositories_created": 360,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 467,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2024-05",
+        "broad_ai_declared_repositories_created": 432,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 423,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2024-06",
+        "broad_ai_declared_repositories_created": 501,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 432,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2024-07",
+        "broad_ai_declared_repositories_created": 494,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 431,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2024-08",
+        "broad_ai_declared_repositories_created": 542,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 412,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2024-09",
+        "broad_ai_declared_repositories_created": 665,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 426,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2024-10",
+        "broad_ai_declared_repositories_created": 660,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 421,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2024-11",
+        "broad_ai_declared_repositories_created": 1015,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 463,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2024-12",
+        "broad_ai_declared_repositories_created": 1488,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 434,
+        "public_commit_count": null,
+        "detected_signed_agent_commits": null,
+        "signed_agent_share_pct": null,
+        "tracker_days": null
+      },
+      {
+        "month": "2025-01",
+        "broad_ai_declared_repositories_created": 3041,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 457,
+        "public_commit_count": 94963649.0,
+        "detected_signed_agent_commits": 7541.0,
+        "signed_agent_share_pct": 0.008,
+        "tracker_days": 31.0
+      },
+      {
+        "month": "2025-02",
+        "broad_ai_declared_repositories_created": 3361,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 503,
+        "public_commit_count": 191567507.0,
+        "detected_signed_agent_commits": 12780.0,
+        "signed_agent_share_pct": 0.007,
+        "tracker_days": 28.0
+      },
+      {
+        "month": "2025-03",
+        "broad_ai_declared_repositories_created": 3876,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 555,
+        "public_commit_count": 2978970.0,
+        "detected_signed_agent_commits": 800.0,
+        "signed_agent_share_pct": 0.027,
+        "tracker_days": 1.0
+      },
+      {
+        "month": "2025-04",
+        "broad_ai_declared_repositories_created": 4690,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 501,
+        "public_commit_count": 115304350.0,
+        "detected_signed_agent_commits": 31763.0,
+        "signed_agent_share_pct": 0.028,
+        "tracker_days": 30.0
+      },
+      {
+        "month": "2025-05",
+        "broad_ai_declared_repositories_created": 5042,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 605,
+        "public_commit_count": 124576346.0,
+        "detected_signed_agent_commits": 96637.0,
+        "signed_agent_share_pct": 0.078,
+        "tracker_days": 31.0
+      },
+      {
+        "month": "2025-06",
+        "broad_ai_declared_repositories_created": 6763,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 770,
+        "public_commit_count": 113141111.0,
+        "detected_signed_agent_commits": 370377.0,
+        "signed_agent_share_pct": 0.327,
+        "tracker_days": 30.0
+      },
+      {
+        "month": "2025-07",
+        "broad_ai_declared_repositories_created": 7463,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 801,
+        "public_commit_count": 126291664.0,
+        "detected_signed_agent_commits": 625301.0,
+        "signed_agent_share_pct": 0.495,
+        "tracker_days": 31.0
+      },
+      {
+        "month": "2025-08",
+        "broad_ai_declared_repositories_created": 8114,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 623,
+        "public_commit_count": 125440515.0,
+        "detected_signed_agent_commits": 838107.0,
+        "signed_agent_share_pct": 0.668,
+        "tracker_days": 31.0
+      },
+      {
+        "month": "2025-09",
+        "broad_ai_declared_repositories_created": 7258,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 564,
+        "public_commit_count": 134815375.0,
+        "detected_signed_agent_commits": 804745.0,
+        "signed_agent_share_pct": 0.597,
+        "tracker_days": 30.0
+      },
+      {
+        "month": "2025-10",
+        "broad_ai_declared_repositories_created": 7422,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 580,
+        "public_commit_count": 138911497.0,
+        "detected_signed_agent_commits": 1345678.0,
+        "signed_agent_share_pct": 0.969,
+        "tracker_days": 31.0
+      },
+      {
+        "month": "2025-11",
+        "broad_ai_declared_repositories_created": 9196,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 654,
+        "public_commit_count": 144623647.0,
+        "detected_signed_agent_commits": 1633305.0,
+        "signed_agent_share_pct": 1.129,
+        "tracker_days": 30.0
+      },
+      {
+        "month": "2025-12",
+        "broad_ai_declared_repositories_created": 8441,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 727,
+        "public_commit_count": 140172220.0,
+        "detected_signed_agent_commits": 2095095.0,
+        "signed_agent_share_pct": 1.495,
+        "tracker_days": 31.0
+      },
+      {
+        "month": "2026-01",
+        "broad_ai_declared_repositories_created": 11496,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 819,
+        "public_commit_count": 149775405.0,
+        "detected_signed_agent_commits": 3752021.0,
+        "signed_agent_share_pct": 2.505,
+        "tracker_days": 31.0
+      },
+      {
+        "month": "2026-02",
+        "broad_ai_declared_repositories_created": 19678,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 890,
+        "public_commit_count": 159879154.0,
+        "detected_signed_agent_commits": 6194239.0,
+        "signed_agent_share_pct": 3.874,
+        "tracker_days": 28.0
+      },
+      {
+        "month": "2026-03",
+        "broad_ai_declared_repositories_created": 29671,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 1246,
+        "public_commit_count": 224607596.0,
+        "detected_signed_agent_commits": 10141242.0,
+        "signed_agent_share_pct": 4.515,
+        "tracker_days": 31.0
+      },
+      {
+        "month": "2026-04",
+        "broad_ai_declared_repositories_created": 26475,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 1057,
+        "public_commit_count": 211750290.0,
+        "detected_signed_agent_commits": 11504837.0,
+        "signed_agent_share_pct": 5.433,
+        "tracker_days": 30.0
+      },
+      {
+        "month": "2026-05",
+        "broad_ai_declared_repositories_created": 27306,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 1323,
+        "public_commit_count": 253714062.0,
+        "detected_signed_agent_commits": 14519269.0,
+        "signed_agent_share_pct": 5.723,
+        "tracker_days": 31.0
+      },
+      {
+        "month": "2026-06",
+        "broad_ai_declared_repositories_created": 28547,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 2109,
+        "public_commit_count": 355696594.0,
+        "detected_signed_agent_commits": 17987841.0,
+        "signed_agent_share_pct": 5.057,
+        "tracker_days": 30.0
+      },
+      {
+        "month": "2026-07",
+        "broad_ai_declared_repositories_created": 31381,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 4271,
+        "public_commit_count": 636477828.0,
+        "detected_signed_agent_commits": 20183160.0,
+        "signed_agent_share_pct": 3.171,
+        "tracker_days": 31.0
+      },
+      {
+        "month": "2026-08",
+        "broad_ai_declared_repositories_created": 13312,
+        "broad_query_incomplete_results": false,
+        "narrow_ai_topic_repositories_created": 1737,
+        "public_commit_count": 435800499.0,
+        "detected_signed_agent_commits": 7794121.0,
+        "signed_agent_share_pct": 1.788,
+        "tracker_days": 13.0
+      }
+    ]
+  },
+  "yc": {
+    "method_note": "The AI directory tag is treated as a discovery label, not a ground-truth time series. A direct manual review read the public YC one-liner and description for a frozen sample.",
+    "precision_sample_n": 44,
+    "precision_ai_core_yes": 33,
+    "precision_lower_pct": 75.0,
+    "precision_upper_pct_including_ambiguous": 88.6,
+    "non_tagged_semantic_sample_n": 12,
+    "non_tagged_semantic_ai_core_yes": 12,
+    "non_tagged_note": "This deliberately semantic sample demonstrates clear false negatives; it is not a statistical recall estimate.",
+    "summary": [
+      {
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "ambiguous",
+        "companies": 6
+      },
+      {
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "no",
+        "companies": 5
+      },
+      {
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "companies": 33
+      },
+      {
+        "audit_source_stratum": "semantic_ai_without_directory_tag",
+        "manual_ai_core": "yes",
+        "companies": 12
+      }
+    ],
+    "layers_among_manual_ai_core_yes": [
+      {
+        "manual_product_layer": "creative",
+        "companies": 2
+      },
+      {
+        "manual_product_layer": "devtools_infra",
+        "companies": 17
+      },
+      {
+        "manual_product_layer": "horizontal_agent",
+        "companies": 2
+      },
+      {
+        "manual_product_layer": "physical_science",
+        "companies": 6
+      },
+      {
+        "manual_product_layer": "vertical_workflow",
+        "companies": 18
+      }
+    ],
+    "audit_by_cohort": [
+      {
+        "batch": "Fall 2024",
+        "manual_ai_core": "yes",
+        "companies": 4
+      },
+      {
+        "batch": "Fall 2025",
+        "manual_ai_core": "yes",
+        "companies": 7
+      },
+      {
+        "batch": "Spring 2025",
+        "manual_ai_core": "ambiguous",
+        "companies": 1
+      },
+      {
+        "batch": "Spring 2025",
+        "manual_ai_core": "no",
+        "companies": 1
+      },
+      {
+        "batch": "Spring 2025",
+        "manual_ai_core": "yes",
+        "companies": 2
+      },
+      {
+        "batch": "Spring 2026",
+        "manual_ai_core": "ambiguous",
+        "companies": 1
+      },
+      {
+        "batch": "Spring 2026",
+        "manual_ai_core": "yes",
+        "companies": 6
+      },
+      {
+        "batch": "Summer 2023",
+        "manual_ai_core": "yes",
+        "companies": 4
+      },
+      {
+        "batch": "Summer 2024",
+        "manual_ai_core": "ambiguous",
+        "companies": 1
+      },
+      {
+        "batch": "Summer 2024",
+        "manual_ai_core": "yes",
+        "companies": 3
+      },
+      {
+        "batch": "Summer 2025",
+        "manual_ai_core": "ambiguous",
+        "companies": 1
+      },
+      {
+        "batch": "Summer 2025",
+        "manual_ai_core": "yes",
+        "companies": 3
+      },
+      {
+        "batch": "Summer 2026",
+        "manual_ai_core": "ambiguous",
+        "companies": 2
+      },
+      {
+        "batch": "Summer 2026",
+        "manual_ai_core": "yes",
+        "companies": 5
+      },
+      {
+        "batch": "Winter 2024",
+        "manual_ai_core": "no",
+        "companies": 2
+      },
+      {
+        "batch": "Winter 2024",
+        "manual_ai_core": "yes",
+        "companies": 2
+      },
+      {
+        "batch": "Winter 2025",
+        "manual_ai_core": "yes",
+        "companies": 4
+      },
+      {
+        "batch": "Winter 2026",
+        "manual_ai_core": "no",
+        "companies": 2
+      },
+      {
+        "batch": "Winter 2026",
+        "manual_ai_core": "yes",
+        "companies": 5
+      }
+    ],
+    "ledger": [
+      {
+        "objectID": 30088,
+        "name": "PermitPortal",
+        "batch": "Fall 2024",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "AI operating system is the stated product for pre-construction workflows.",
+        "one_liner": "AI Operating System for Pre-construction",
+        "tags": "Real Estate; Construction; AI"
+      },
+      {
+        "objectID": 30117,
+        "name": "Relvy AI",
+        "batch": "Fall 2024",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "Description explicitly states AI debugging notebooks that investigate incidents.",
+        "one_liner": "AI powered debugging notebooks for incident response",
+        "tags": "Developer Tools; SaaS; B2B; DevOps; AI"
+      },
+      {
+        "objectID": 30022,
+        "name": "Symphony",
+        "batch": "Fall 2024",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "Interactive AI voice simulations are the core employee-training product.",
+        "one_liner": "Voice AI sims for next-gen employee training",
+        "tags": "SaaS; B2B; HR Tech; AI"
+      },
+      {
+        "objectID": 30043,
+        "name": "Vespper",
+        "batch": "Fall 2024",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "MCP document-editing capability is explicitly designed for agents.",
+        "one_liner": "The best DOCX MCP for agents to edit microsoft word documents",
+        "tags": "Documents; Artificial Intelligence; Developer Tools; B2B; API"
+      },
+      {
+        "objectID": 30932,
+        "name": "Leadbay",
+        "batch": "Fall 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "Lead qualification is described as an agentic workflow product.",
+        "one_liner": "Qualified leads for agentic workflows.",
+        "tags": "B2B; Sales; AI"
+      },
+      {
+        "objectID": 31008,
+        "name": "Moss",
+        "batch": "Fall 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "Semantic search runtime is explicitly built for conversational and multimodal AI.",
+        "one_liner": "Real-time semantic search for Conversational AI",
+        "tags": "Developer Tools; SaaS; AI"
+      },
+      {
+        "objectID": 30887,
+        "name": "SellRaze",
+        "batch": "Fall 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "Computer vision and AI listing creation are core to the selling assistant.",
+        "one_liner": "The fastest way to sell online.",
+        "tags": "Artificial Intelligence; Marketplace; Consumer; E-commerce"
+      },
+      {
+        "objectID": 30875,
+        "name": "Veria Labs",
+        "batch": "Fall 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "AI agents are the stated security product, not a peripheral feature.",
+        "one_liner": "Continuous AI pentesting that finds and fixes vulnerabilities",
+        "tags": "Security; Cybersecurity; AI"
+      },
+      {
+        "objectID": 30430,
+        "name": "Almond",
+        "batch": "Spring 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "physical_science",
+        "manual_reason": "Dual-arm robot is explicitly described as built for physical AI.",
+        "one_liner": "A dual-arm robot built for physical AI.",
+        "tags": "Hardware; Robotics; Manufacturing; Automation; AI"
+      },
+      {
+        "objectID": 30450,
+        "name": "Kestral",
+        "batch": "Spring 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "Public description identifies an agent team that analyzes and prioritizes customer signals.",
+        "one_liner": "We automate your entire product development lifecycle.",
+        "tags": "Artificial Intelligence; Productivity; Team Collaboration"
+      },
+      {
+        "objectID": 30488,
+        "name": "Theta",
+        "batch": "Spring 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "ambiguous",
+        "manual_product_layer": "ambiguous",
+        "manual_reason": "Only a broad AI claim is available; the description does not establish the product layer.",
+        "one_liner": "Specialized AI for Every Job",
+        "tags": "Artificial Intelligence; Reinforcement Learning; B2B"
+      },
+      {
+        "objectID": 30544,
+        "name": "Wavedash",
+        "batch": "Spring 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "no",
+        "manual_product_layer": "non_ai",
+        "manual_reason": "Description discusses browser game delivery without a described AI capability.",
+        "one_liner": "Play the latest games in your browser with no downloads",
+        "tags": "Artificial Intelligence; Consumer; Gaming; Web Development"
+      },
+      {
+        "objectID": 31441,
+        "name": "Infera",
+        "batch": "Spring 2026",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "physical_science",
+        "manual_reason": "Natural-language compiler to validated lab-instrument runs is central to the product.",
+        "one_liner": "Control lab instruments with natural language.",
+        "tags": "SaaS; B2B; Biotech; Automation; AI"
+      },
+      {
+        "objectID": 31480,
+        "name": "Pops",
+        "batch": "Spring 2026",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "creative",
+        "manual_reason": "AI game creation and remixing are central product capabilities.",
+        "one_liner": "Create & play AI games with friends",
+        "tags": "Artificial Intelligence; Consumer; Gaming; Social"
+      },
+      {
+        "objectID": 31419,
+        "name": "StableBrowse",
+        "batch": "Spring 2026",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "ambiguous",
+        "manual_product_layer": "ambiguous",
+        "manual_reason": "The minimal description does not show how AI is core to the infrastructure product.",
+        "one_liner": "Help frontier labs build better models.",
+        "tags": "Artificial Intelligence; API"
+      },
+      {
+        "objectID": 31368,
+        "name": "Zenbu",
+        "batch": "Spring 2026",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "IDE orchestration for coding agents is explicit.",
+        "one_liner": "The extensible IDE for coding agents",
+        "tags": "Artificial Intelligence; Developer Tools; Open Source"
+      },
+      {
+        "objectID": 28815,
+        "name": "Atla",
+        "batch": "Summer 2023",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "LLM judging, agent traces, evaluation, and fixes are explicit.",
+        "one_liner": "The improvement engine for AI agents",
+        "tags": "AIOps; Artificial Intelligence; Developer Tools; Analytics; AI"
+      },
+      {
+        "objectID": 29071,
+        "name": "Cedalio",
+        "batch": "Summer 2023",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "AI agent automation of finance workflows is explicit.",
+        "one_liner": "AI agents that automate AP, procurement, and finance",
+        "tags": "Fintech; Finance; Data Engineering; AI"
+      },
+      {
+        "objectID": 28814,
+        "name": "OpenTools",
+        "batch": "Summer 2023",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "LLM tool-use API is the stated product.",
+        "one_liner": "The API for LLM tool use",
+        "tags": "Marketplace; AI"
+      },
+      {
+        "objectID": 28969,
+        "name": "Studdy",
+        "batch": "Summer 2023",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "Personalized AI tutor is explicit.",
+        "one_liner": "An AI math tutor for every student",
+        "tags": "AI-Enhanced Learning; Education; Consumer; Edtech; AI"
+      },
+      {
+        "objectID": 29989,
+        "name": "Conductor",
+        "batch": "Summer 2024",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "Parallel coding-agent workspaces are explicit.",
+        "one_liner": "Run a team of coding agents on your Mac",
+        "tags": "Developer Tools; AI"
+      },
+      {
+        "objectID": 29646,
+        "name": "Corgi Insurance",
+        "batch": "Summer 2024",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "ambiguous",
+        "manual_product_layer": "ambiguous",
+        "manual_reason": "The insurer description does not describe an AI system despite the tag and one-liner.",
+        "one_liner": "Corgi is building an AI financial infrastructure company",
+        "tags": "Artificial Intelligence; Fintech; Insurance"
+      },
+      {
+        "objectID": 29704,
+        "name": "Modus",
+        "batch": "Summer 2024",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "AI-powered headcount analysis and agent workflow are described.",
+        "one_liner": "Unlock revenue per employee with AI-powered headcount management",
+        "tags": "Artificial Intelligence; Finance; B2B; HR Tech; Operations"
+      },
+      {
+        "objectID": 29778,
+        "name": "Praxos",
+        "batch": "Summer 2024",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "horizontal_agent",
+        "manual_reason": "The stated workspace is for people and AI agents.",
+        "one_liner": "Messaging workspace for people and AI agents",
+        "tags": "B2B; Messaging; AI; Conversational AI"
+      },
+      {
+        "objectID": 30813,
+        "name": "Blue",
+        "batch": "Summer 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "horizontal_agent",
+        "manual_reason": "Phone-level task execution through natural-language requests is core.",
+        "one_liner": "Your phone finally has someone to run it. Plug in Blue, just ask.",
+        "tags": "Hardware; Productivity; AI"
+      },
+      {
+        "objectID": 30716,
+        "name": "Finto",
+        "batch": "Summer 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "AI automates enterprise invoice-to-pay accounting work.",
+        "one_liner": "AI accounting for enterprise finance teams",
+        "tags": "Artificial Intelligence; Fintech; B2B; Enterprise; AI"
+      },
+      {
+        "objectID": 30700,
+        "name": "Nozomio",
+        "batch": "Summer 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "The product is expressly a lab for solving AI context.",
+        "one_liner": "product lab solving context in ai",
+        "tags": "Developer Tools; Consumer; AI"
+      },
+      {
+        "objectID": 30671,
+        "name": "Panoptive",
+        "batch": "Summer 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "ambiguous",
+        "manual_product_layer": "ambiguous",
+        "manual_reason": "Description establishes clinical oversight but does not explain an AI capability.",
+        "one_liner": "The continuous oversight engine for clinical trials",
+        "tags": "B2B; Biotech; Infrastructure; AI"
+      },
+      {
+        "objectID": 33046,
+        "name": "CarSignal",
+        "batch": "Summer 2026",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "ambiguous",
+        "manual_product_layer": "ambiguous",
+        "manual_reason": "AI tag appears, but the short public description supplies no AI product evidence.",
+        "one_liner": "The Smart Operating System for Auto Shops.",
+        "tags": "SaaS; AI; Automotive"
+      },
+      {
+        "objectID": 31258,
+        "name": "Dream",
+        "batch": "Summer 2026",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "physical_science",
+        "manual_reason": "Computer-vision AI cameras detect and reconstruct asset condition.",
+        "one_liner": "Pocket-sized AI cameras that catch asset damage.",
+        "tags": "Artificial Intelligence; Hardware; Machine Learning; Computer Vision; B2B"
+      },
+      {
+        "objectID": 33806,
+        "name": "Experiential Labs",
+        "batch": "Summer 2026",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "Model endpoints improve smaller models from production agent traces.",
+        "one_liner": "Turn your AI spend into a cheaper + better model you own",
+        "tags": "Artificial Intelligence; Infrastructure"
+      },
+      {
+        "objectID": 33048,
+        "name": "Pennant",
+        "batch": "Summer 2026",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "ambiguous",
+        "manual_product_layer": "ambiguous",
+        "manual_reason": "Governance intelligence is described but the AI mechanism is not established.",
+        "one_liner": "The Corporate Governance OS for Public Markets",
+        "tags": "Fintech; Investing; Investments; AI"
+      },
+      {
+        "objectID": 29519,
+        "name": "Forge Rewards",
+        "batch": "Winter 2024",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "no",
+        "manual_product_layer": "non_ai",
+        "manual_reason": "Restaurant rewards description supplies no AI product evidence.",
+        "one_liner": "Starbucks app for restaurants",
+        "tags": "Artificial Intelligence; Restaurant Tech; Food Tech"
+      },
+      {
+        "objectID": 29342,
+        "name": "InQuery",
+        "batch": "Winter 2024",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "Automated, reasoning-based medical-record review is central.",
+        "one_liner": "Intelligent Medical Record Reviews",
+        "tags": "Documents; Insurance; AI; AI Assistant"
+      },
+      {
+        "objectID": 29324,
+        "name": "PromptArmor",
+        "batch": "Winter 2024",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "LLM security and compliance are the stated product.",
+        "one_liner": "LLM Security and Compliance",
+        "tags": "Generative AI; Security; Cybersecurity; AI"
+      },
+      {
+        "objectID": 29357,
+        "name": "Salvy",
+        "batch": "Winter 2024",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "no",
+        "manual_product_layer": "non_ai",
+        "manual_reason": "The mobile-carrier description supplies no AI product evidence.",
+        "one_liner": "Mobile carrier for businesses in Brazil",
+        "tags": "SaaS; B2B; Latin America; Telecommunications; AI"
+      },
+      {
+        "objectID": 30197,
+        "name": "Alice.tech",
+        "batch": "Winter 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "Personalized AI exam preparation is explicit.",
+        "one_liner": "AI-driven exam prep",
+        "tags": "AI-Enhanced Learning; Artificial Intelligence; Education; Generative AI; SaaS"
+      },
+      {
+        "objectID": 30181,
+        "name": "Leaping AI",
+        "batch": "Winter 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "Voice and texting AI agents execute customer-service workflows.",
+        "one_liner": "AI voice and texting agents",
+        "tags": "Artificial Intelligence; B2B; Conversational AI"
+      },
+      {
+        "objectID": 30246,
+        "name": "Swerve",
+        "batch": "Winter 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "creative",
+        "manual_reason": "AI character chats are the core consumer product.",
+        "one_liner": "Chat with AI Characters",
+        "tags": "Artificial Intelligence; Consumer; Entertainment"
+      },
+      {
+        "objectID": 30228,
+        "name": "Weave",
+        "batch": "Winter 2025",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "AI analyzes and routes engineering work and model selection.",
+        "one_liner": "AI to understand and then route engineering work",
+        "tags": "B2B; Analytics; AI"
+      },
+      {
+        "objectID": 31192,
+        "name": "Approxima",
+        "batch": "Winter 2026",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "Coding agents scope, code, validate, and merge changes.",
+        "one_liner": "Your software should build itself.",
+        "tags": "Enterprise Software; Infrastructure; AI"
+      },
+      {
+        "objectID": 31215,
+        "name": "Bubble Lab",
+        "batch": "Winter 2026",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "no",
+        "manual_product_layer": "non_ai",
+        "manual_reason": "Community operating-system description provides no AI product evidence.",
+        "one_liner": "Operating system for premium professional communities",
+        "tags": "Artificial Intelligence; Automation; Operations"
+      },
+      {
+        "objectID": 31168,
+        "name": "Instinct",
+        "batch": "Winter 2026",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "no",
+        "manual_product_layer": "non_ai",
+        "manual_reason": "Trading app description provides no AI product evidence.",
+        "one_liner": "Trade your instinct",
+        "tags": "Artificial Intelligence; Machine Learning; Trading; Cryptocurrency"
+      },
+      {
+        "objectID": 31180,
+        "name": "Seeing Systems",
+        "batch": "Winter 2026",
+        "audit_source_stratum": "directory_ai_tagged",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "physical_science",
+        "manual_reason": "Agentic control system and autonomous drones are explicit.",
+        "one_liner": "Modular AI-Commanded Drones for Defence",
+        "tags": "Artificial Intelligence; Hardware; Drones; Aerospace"
+      },
+      {
+        "objectID": 30903,
+        "name": "Kestrel AI",
+        "batch": "Fall 2025",
+        "audit_source_stratum": "semantic_ai_without_directory_tag",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "AI automation for platform engineering is explicit.",
+        "one_liner": "AI Agents for Platform Engineering",
+        "tags": "AIOps; Developer Tools; DevOps; Infrastructure"
+      },
+      {
+        "objectID": 30888,
+        "name": "Lakonia",
+        "batch": "Fall 2025",
+        "audit_source_stratum": "semantic_ai_without_directory_tag",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "AI transcription and synthesis for commanders is explicit.",
+        "one_liner": "Delivering AI-powered situational awareness in tactical environments.",
+        "tags": "GovTech; NLP; Defense"
+      },
+      {
+        "objectID": 30977,
+        "name": "Rovi Health",
+        "batch": "Fall 2025",
+        "audit_source_stratum": "semantic_ai_without_directory_tag",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "AI concierge analyzes clinical data and manages booking.",
+        "one_liner": "AI healthcare concierge for employees",
+        "tags": "Consumer Health Services; Health Tech; Digital Health; Healthcare; Health Insurance"
+      },
+      {
+        "objectID": 31536,
+        "name": "Gigacatalyst",
+        "batch": "Spring 2026",
+        "audit_source_stratum": "semantic_ai_without_directory_tag",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "Embedded AI agents build product features using learned APIs.",
+        "one_liner": "Let software users build new features with our in-app AI agents",
+        "tags": null
+      },
+      {
+        "objectID": 31440,
+        "name": "Mount",
+        "batch": "Spring 2026",
+        "audit_source_stratum": "semantic_ai_without_directory_tag",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "AI-agent liability insurance and deployment scanning are core.",
+        "one_liner": "The AI Agent Insurance Carrier",
+        "tags": null
+      },
+      {
+        "objectID": 31481,
+        "name": "Saudara AI",
+        "batch": "Spring 2026",
+        "audit_source_stratum": "semantic_ai_without_directory_tag",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "AI-native sourcing broker is the stated operating model.",
+        "one_liner": "AI Native Sourcing Broker For Overseas Manufacturing",
+        "tags": null
+      },
+      {
+        "objectID": 32619,
+        "name": "Akon Labs",
+        "batch": "Summer 2026",
+        "audit_source_stratum": "semantic_ai_without_directory_tag",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "Nervous system for AI agents is the stated product.",
+        "one_liner": "Nervous System for AI Agents",
+        "tags": "Deep Learning; Generative AI; SaaS"
+      },
+      {
+        "objectID": 32979,
+        "name": "RonanRx Inc.",
+        "batch": "Summer 2026",
+        "audit_source_stratum": "semantic_ai_without_directory_tag",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "physical_science",
+        "manual_reason": "AI personalizes therapeutics from biological and clinical data.",
+        "one_liner": "We use AI to personalize peptides to your biology",
+        "tags": "Health Tech; Telehealth; Therapeutics"
+      },
+      {
+        "objectID": 31425,
+        "name": "WonderTx",
+        "batch": "Summer 2026",
+        "audit_source_stratum": "semantic_ai_without_directory_tag",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "physical_science",
+        "manual_reason": "AI-native molecule discovery is explicit.",
+        "one_liner": "Extrapolative AI to unlock First-in-Class drugs",
+        "tags": "AI-powered Drug Discovery; Generative AI; Biotech"
+      },
+      {
+        "objectID": 31146,
+        "name": "Moritz",
+        "batch": "Winter 2026",
+        "audit_source_stratum": "semantic_ai_without_directory_tag",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "AI-native legal-work delivery is explicit.",
+        "one_liner": "Global AI-native law firm handling legal work with same-day turnaround",
+        "tags": null
+      },
+      {
+        "objectID": 31174,
+        "name": "Parameter (fka Hex Security)",
+        "batch": "Winter 2026",
+        "audit_source_stratum": "semantic_ai_without_directory_tag",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "devtools_infra",
+        "manual_reason": "AI agents performing continuous penetration tests are explicit.",
+        "one_liner": "Agentic Offensive Security at Scale",
+        "tags": null
+      },
+      {
+        "objectID": 31201,
+        "name": "Robby",
+        "batch": "Winter 2026",
+        "audit_source_stratum": "semantic_ai_without_directory_tag",
+        "manual_ai_core": "yes",
+        "manual_product_layer": "vertical_workflow",
+        "manual_reason": "AI agents grow home-services revenue through data and workflow actions.",
+        "one_liner": "AI agents that grow revenue for home services businesses",
+        "tags": null
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "google",
+      "label": "Google Trends Help \u2014 normalized data methodology",
+      "url": "https://support.google.com/trends/answer/4365533?hl=en"
+    },
+    {
+      "id": "yc",
+      "label": "Y Combinator Startup Directory",
+      "url": "https://www.ycombinator.com/companies"
+    },
+    {
+      "id": "github-search",
+      "label": "GitHub REST repository search",
+      "url": "https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28"
+    },
+    {
+      "id": "agent-tracker",
+      "label": "GitHub Coding Agent Monitor \u2014 public auditable tracker",
+      "url": "https://github.com/powerset-co/github-coding-agent-tracker"
+    }
+  ]
+}
