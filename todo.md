@@ -1,3 +1,7 @@
 - [x] Remove revision-history framing from visible research copy.
 - [x] Recast the YC section as a direct evidence statement about tags and audited descriptions.
 - [x] Verify the refined story on desktop and save an updated checkpoint.
+- [x] Remove August 2026 from all visible data series and labels.
+- [x] Verify that every displayed monthly comparison ends in July 2026.
+- [x] Aggregate detected signed coding-agent commits by agent type through July 2026.
+- [x] Add an agent-by-agent signed-commit trend map to the GitHub section.

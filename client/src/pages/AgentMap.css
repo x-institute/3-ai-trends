@@ -1,0 +1,15 @@
+/* Signal Room agent map: a quiet analytical inset that keeps individual agent signatures legible. */
+.agent-map-card { margin-top: 45px; padding: 28px 26px 21px; background: #F4FAF6; border: 1px solid #B6CDC2; border-top: 3px solid #13826D; }
+.agent-map-head { display: flex; justify-content: space-between; gap: 26px; align-items: flex-start; }
+.agent-map-head h3 { font-family: "DM Serif Display", serif; font-size: 29px; font-weight: 400; margin: 5px 0 8px; }
+.agent-map-head p { max-width: 650px; color: #557368; font-size: 12px; line-height: 1.5; }
+.agent-map-chart { margin-top: 17px; }
+.agent-map-foot { display: grid; grid-template-columns: 1.3fr repeat(3, .85fr) 2.5fr; align-items: center; gap: 14px; border-top: 1px solid #C9D8D1; padding-top: 14px; color: #47675B; font-size: 11px; }
+.agent-map-foot div { display: flex; align-items: center; gap: 6px; }
+.agent-map-foot div:first-child { display: block; }
+.agent-map-foot span { display: block; }
+.agent-map-foot b { display: block; color: #173D34; font-size: 13px; }
+.agent-map-foot i { width: 8px; height: 8px; border-radius: 50%; display: block; }
+.agent-map-foot p { font-size: 10px; line-height: 1.4; margin: 0; color: #5C776C; }
+@media (max-width: 900px) { .agent-map-head { display: block; } .agent-map-head .source-chip { margin-top: 13px; } .agent-map-foot { grid-template-columns: 1fr 1fr; gap: 10px; } .agent-map-foot p { grid-column: span 2; } }
+@media (max-width: 560px) { .agent-map-card { padding: 20px 13px; } .agent-map-head h3 { font-size: 24px; } }

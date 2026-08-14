@@ -35,6 +35,7 @@ import {
   YAxis,
 } from "recharts";
 import researchData from "@/data/revisedSiteData.json";
+import "./AgentMap.css";
 
 const research: any = researchData;
 
@@ -59,6 +60,11 @@ const githubModes = {
   },
 };
 
+const agentColors: Record<string, string> = {
+  "Claude Code": "#2859C5", Cursor: "#E26B3A", "GitHub Copilot": "#13826D", Devin: "#7A3E78",
+  Aider: "#B67A10", "OpenAI Codex": "#2778A7", OpenCode: "#9B4C38", "Google Jules": "#7B9367", "Amazon Q": "#766B61",
+};
+
 function SectionKicker({ index, children, stream }: { index: string; children: React.ReactNode; stream?: "google" | "yc" | "github" }) {
   const color = stream ? signalMeta[stream].color : "#2F2D29";
   return <div className="section-kicker" style={{ color }}><span>{index}</span><i />{children}</div>;
@@ -76,13 +82,17 @@ function TooltipBox({ active, payload, label }: any) {
 export default function Home() {
   const [githubMode, setGithubMode] = useState<keyof typeof githubModes>("broad_ai_declared_repositories_created");
   const [auditFilter, setAuditFilter] = useState("all");
-  const googleData = research.google.data;
-  const githubData = research.github.data;
+  const googleData = research.google.data.filter((row: any) => row.month <= "2026-07");
+  const githubData = research.github.data.filter((row: any) => row.month <= "2026-07");
   const latestGoogle = googleData[googleData.length - 2];
   const filteredLedger = useMemo(() => research.yc.ledger.filter((record: any) => auditFilter === "all" || record.manual_ai_core === auditFilter), [auditFilter]);
   const layerData = research.yc.layers_among_manual_ai_core_yes.map((row: any) => ({ ...row, label: row.manual_product_layer.replaceAll("_", " ") }));
   const githubConfig = githubModes[githubMode];
   const githubChart = githubData.map((row: any) => ({ ...row, shortMonth: row.month.slice(2) })).filter((row: any) => githubMode !== "signed_agent_share_pct" || (row.tracker_days >= 28 && row.month !== "2025-03"));
+  const agentTypes = research.github.signed_agent_types as string[];
+  const agentTimeline = research.github.signed_agent_by_type.map((row: any) => ({ ...row, shortMonth: row.month.slice(2) }));
+  const latestAgentMonth = agentTimeline[agentTimeline.length - 1];
+  const latestAgentRank = [...agentTypes].map((agent) => ({ agent, commits: latestAgentMonth?.[agent] ?? 0, share: latestAgentMonth?.[`${agent} share`] ?? 0 })).sort((a, b) => b.commits - a.commits);
 
   return (
     <div className="atlas-shell">
@@ -123,7 +133,7 @@ export default function Home() {
           <div><span className="signal-thread google" /><p>GOOGLE</p><b>42</b><small>monthly attention observations</small></div>
           <div><span className="signal-thread yc" /><p>YC</p><b>56</b><small>public descriptions manually reviewed</small></div>
           <div><span className="signal-thread github" /><p>GITHUB</p><b>3</b><small>distinct developer-activity signals</small></div>
-          <div className="signal-caveat"><CircleAlert size={17} /><span>August 2026 is marked partial wherever it appears.</span></div>
+          <div className="signal-caveat"><CircleAlert size={17} /><span>All monthly comparisons end in July 2026.</span></div>
         </section>
 
         <section className="thesis-layout" id="attention">
@@ -173,6 +183,11 @@ export default function Home() {
             <p className="chart-note">{githubConfig.note}</p>
             <ResponsiveContainer width="100%" height={345}><AreaChart data={githubChart} margin={{ top: 20, right: 10, left: -20, bottom: 0 }}><defs><linearGradient id="githubFill" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stopColor={githubConfig.color} stopOpacity={0.35} /><stop offset="100%" stopColor={githubConfig.color} stopOpacity={0.02} /></linearGradient></defs><CartesianGrid vertical={false} stroke="#C9D5CF" /><XAxis dataKey="shortMonth" tick={{ fill: "#536B62", fontSize: 11 }} interval={5} axisLine={false} tickLine={false} /><YAxis tick={{ fill: "#536B62", fontSize: 11 }} axisLine={false} tickLine={false} /><Tooltip content={<TooltipBox />} /><Area type="monotone" dataKey={githubMode} name={githubConfig.label} stroke={githubConfig.color} strokeWidth={3} fill="url(#githubFill)" /></AreaChart></ResponsiveContainer>
             <div className="github-key"><Braces size={19} /><span><b>What changed:</b> by 2026, the public code conversation is not just model access. It is increasingly about agent execution, routing, tool connections, memory, and fleets of coding agents.</span></div>
+          </div>
+          <div className="agent-map-card">
+            <div className="agent-map-head"><div><span className="mini-label">COMPLETED MONTHS ONLY · SHARE OF DETECTED SIGNED AGENT COMMITS</span><h3>Which coding agents leave public commit signatures?</h3><p>The map separates every detected agent family. It describes the mix of signatures observed by the tracker—not overall coding-agent market share.</p></div><SourceChip tone="github">Agent signature map</SourceChip></div>
+            <div className="agent-map-chart"><ResponsiveContainer width="100%" height={370}><AreaChart data={agentTimeline} stackOffset="expand" margin={{ top: 15, right: 10, left: -18, bottom: 0 }}><CartesianGrid vertical={false} stroke="#D4E0D9" /><XAxis dataKey="shortMonth" tick={{ fill: "#536B62", fontSize: 11 }} interval={2} axisLine={false} tickLine={false} /><YAxis tickFormatter={(value) => `${Math.round(value * 100)}%`} tick={{ fill: "#536B62", fontSize: 11 }} axisLine={false} tickLine={false} width={42} /><Tooltip content={<TooltipBox />} /><Legend iconType="circle" wrapperStyle={{ fontSize: 11, paddingTop: 12 }} />{agentTypes.map((agent) => <Area key={agent} type="monotone" dataKey={`${agent} share`} name={agent} stackId="agent-mix" stroke={agentColors[agent]} fill={agentColors[agent]} fillOpacity={0.92} />)}</AreaChart></ResponsiveContainer></div>
+            <div className="agent-map-foot"><div><span>Latest full month</span><b>{latestAgentMonth?.month}</b></div>{latestAgentRank.slice(0, 3).map((row) => <div key={row.agent}><i style={{ background: agentColors[row.agent] }} /><span>{row.agent}</span><b>{Math.round(row.share)}%</b></div>)}<p>Cursor merges editor and background signatures. March ’25 is omitted because the tracker has only one observed day.</p></div>
           </div>
           <div className="github-mini-grid"><article><span>REPOSITORY SELF-DESCRIPTION</span><b>31,381</b><p>new public repositories matched “AI agent” in Jul ’26</p></article><article><span>SIGNED CODING-AGENT ACTIVITY</span><b>5.72%</b><p>of detected public commits in May ’26, the highest full-month rate in this tracker</p></article><article><span>WHY NOT COMBINE THEM?</span><p>One is self-description; one is a changing topic label; one is partial but behavioral evidence of agent use.</p></article></div>
         </section>
