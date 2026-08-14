@@ -1,0 +1,3 @@
+- [x] Remove revision-history framing from visible research copy.
+- [x] Recast the YC section as a direct evidence statement about tags and audited descriptions.
+- [x] Verify the refined story on desktop and save an updated checkpoint.

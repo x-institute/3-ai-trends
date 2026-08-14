@@ -104,16 +104,16 @@ export default function Home() {
         <section className="hero">
           <img className="hero-field" src="/manus-storage/atlas-hero-field_3eaa5865.png" alt="" />
           <div className="hero-copy">
-            <div className="eyebrow"><span className="live-dot" /> REVISED RESEARCH EDITION · 14 AUG 2026</div>
+            <div className="eyebrow"><span className="live-dot" /> EVIDENCE ATLAS · 14 AUG 2026</div>
             <h1>What the world <em>searches,</em><br />what founders <em>sell,</em><br />what developers <em>build.</em></h1>
-            <p className="hero-deck">An evidence-first atlas of the AI shift since GPT‑4. This revision separates public attention from startup descriptions and from developer traces—because one label cannot explain the whole system.</p>
+            <p className="hero-deck">An evidence-first atlas of the AI shift since GPT‑4. Google captures public attention, YC descriptions show founder supply, and GitHub reveals builder activity—because one label cannot explain the whole system.</p>
             <div className="hero-actions">
               <a href="#attention" className="button-primary">Explore the signals <ArrowDownRight size={18} /></a>
-              <a href="#methods" className="text-action">Read the correction <ChevronRight size={16} /></a>
+              <a href="#methods" className="text-action">Read the evidence standard <ChevronRight size={16} /></a>
             </div>
           </div>
           <aside className="hero-note">
-            <p>THE REVISION</p>
+            <p>THE EVIDENCE</p>
             <strong>Topic tags are not code authorship.<br />Directory tags are not ground truth.</strong>
             <span>We added signed coding-agent commits and a direct, company-by-company YC audit.</span>
           </aside>
@@ -148,9 +148,9 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="correction-banner">
-          <div><FileSearch size={25} /><span>METHOD CORRECTION</span></div>
-          <p>The earlier YC result treated an AI directory tag as a time series. The revised analysis treats it as a <b>discovery aid</b>, then shows what survived a direct description audit.</p>
+        <section className="evidence-banner">
+          <div><FileSearch size={25} /><span>EVIDENCE STANDARD</span></div>
+          <p>A directory tag narrows discovery. A public description establishes what a company says it builds. <b>This atlas places both signals side by side.</b></p>
           <a href="#audit">See the ledger <ArrowDownRight size={17} /></a>
         </section>
 
@@ -161,12 +161,12 @@ export default function Home() {
             <article className="audit-side-card"><BadgeCheck size={24} /><h3>Clear false negatives exist.</h3><p>All <b>12 reviewed semantic AI candidates without an AI directory tag</b> were AI-core. This is not a recall estimate—the sample was intentionally semantic—but it proves tag-only analysis misses real companies.</p><SourceChip tone="yc">MANUAL AUDIT · N=56</SourceChip></article>
             <article className="layer-card"><div className="chart-head"><div><span className="mini-label">AMONG 45 MANUALLY CERTAIN AI-CORE COMPANIES</span><h3>What the sample actually builds</h3></div></div><ResponsiveContainer width="100%" height={220}><BarChart data={layerData} layout="vertical" margin={{ left: 5, right: 25, top: 5, bottom: 5 }}><XAxis type="number" hide /><YAxis type="category" dataKey="label" width={112} tick={{ fill: "#5E5650", fontSize: 11 }} axisLine={false} tickLine={false} /><Tooltip cursor={{ fill: "#F5E9E4" }} content={<TooltipBox />} /><Bar dataKey="companies" radius={[0, 7, 7, 0]}>{layerData.map((_: any, index: number) => <Cell key={index} fill={["#E26B3A", "#D1875C", "#ECA56D", "#B65F49", "#F0C1A7"][index]} />)}</Bar></BarChart></ResponsiveContainer></article>
           </div>
-          <div className="founder-conclusion"><Sparkles size={22} /><p><b>Revised conclusion:</b> In the manually reviewed evidence, founder activity is split between domain-specific operational workflows and the infrastructure that lets agents act, remember, evaluate, and connect. That is much more defensible than a tag-derived claim about the whole startup population.</p></div>
+          <div className="founder-conclusion"><Sparkles size={22} /><p><b>What the evidence shows:</b> Founder activity in the reviewed sample is split between domain-specific operational workflows and the infrastructure that lets agents act, remember, evaluate, and connect.</p></div>
         </section>
 
         <section className="builders-section" id="builders">
           <SectionKicker index="03" stream="github">Developer building</SectionKicker>
-          <div className="builder-head"><h2>Three GitHub lenses.<br /><em>One ecosystem, no false equivalence.</em></h2><div><SourceChip tone="github">REVISED GITHUB EVIDENCE</SourceChip><p>Repository metadata, topic tags, and signed coding-agent commits answer different questions. The charts keep them separate.</p></div></div>
+          <div className="builder-head"><h2>Three GitHub lenses.<br /><em>One ecosystem, no false equivalence.</em></h2><div><SourceChip tone="github">GITHUB EVIDENCE</SourceChip><p>Repository metadata, topic tags, and signed coding-agent commits answer different questions. The charts keep them separate.</p></div></div>
           <div className="github-tabs" role="tablist" aria-label="GitHub evidence mode">{(Object.keys(githubModes) as Array<keyof typeof githubModes>).map((key) => <button key={key} className={githubMode === key ? "active" : ""} onClick={() => setGithubMode(key)}><span style={{ background: githubModes[key].color }} />{githubModes[key].label}</button>)}</div>
           <div className="github-chart-card">
             <div className="chart-head"><div><span className="mini-label">{githubConfig.unit.toUpperCase()} · MONTHLY</span><h3>{githubConfig.label}</h3></div><SourceChip tone="github">GitHub public data</SourceChip></div>
@@ -178,7 +178,7 @@ export default function Home() {
         </section>
 
         <section className="audit-ledger-section">
-          <div className="ledger-head"><div><SectionKicker index="04">Inspection room</SectionKicker><h2>Every manual decision<br /><em>is inspectable.</em></h2></div><div><p>This is the direct-review ledger behind the YC correction. Filter it, read the reason, and decide whether you agree with the classification.</p><div className="filter-row">{["all", "yes", "ambiguous", "no"].map((filter) => <button key={filter} className={auditFilter === filter ? "selected" : ""} onClick={() => setAuditFilter(filter)}>{filter === "all" ? "All 56" : filter}</button>)}</div></div></div>
+          <div className="ledger-head"><div><SectionKicker index="04">Inspection room</SectionKicker><h2>Every manual decision<br /><em>is inspectable.</em></h2></div><div><p>This direct-review ledger links each classification to the company’s public description. Filter it, read the reason, and decide whether you agree.</p><div className="filter-row">{["all", "yes", "ambiguous", "no"].map((filter) => <button key={filter} className={auditFilter === filter ? "selected" : ""} onClick={() => setAuditFilter(filter)}>{filter === "all" ? "All 56" : filter}</button>)}</div></div></div>
           <div className="ledger-table-wrap"><table><thead><tr><th>Company</th><th>Cohort</th><th>Audit stratum</th><th>AI core?</th><th>Layer</th><th>Manual reason</th></tr></thead><tbody>{filteredLedger.map((record: any) => <tr key={record.objectID}><td><b>{record.name}</b><span>{record.one_liner}</span></td><td>{record.batch.replace("Summer", "S").replace("Winter", "W").replace("Spring", "Sp").replace("Fall", "F")}</td><td><span className="stratum">{record.audit_source_stratum === "directory_ai_tagged" ? "directory tag" : "semantic / untagged"}</span></td><td><span className={`decision ${record.manual_ai_core}`}>{record.manual_ai_core}</span></td><td>{record.manual_product_layer.replaceAll("_", " ")}</td><td className="reason">{record.manual_reason}</td></tr>)}</tbody></table></div>
         </section>
 
@@ -189,7 +189,7 @@ export default function Home() {
           <div className="source-list"><BookOpen size={18} />{research.sources.map((source: any) => <a key={source.id} href={source.url} target="_blank" rel="noreferrer">{source.label}<ExternalLink size={12} /></a>)}</div>
         </section>
       </main>
-      <footer><div className="brand footer-brand"><img src="/manus-storage/atlas-signal-knot_182b341b.png" alt="" /><span>AI / Signals <b>Atlas</b></span></div><p>Evidence first. Revision visible. © 2026</p><a href="#top">Back to top <ArrowUpRight size={15} /></a></footer>
+      <footer><div className="brand footer-brand"><img src="/manus-storage/atlas-signal-knot_182b341b.png" alt="" /><span>AI / Signals <b>Atlas</b></span></div><p>Evidence first. Limits visible. © 2026</p><a href="#top">Back to top <ArrowUpRight size={15} /></a></footer>
     </div>
   );
 }
