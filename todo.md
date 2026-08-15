@@ -9,3 +9,9 @@
 - [x] Build monthly Google, YC, and GitHub keyword panels through July 2026.
 - [x] Identify and document meaningful timing differences across streams.
 - [x] Add a unified interactive keyword comparison view to the research atlas.
+- [x] Define cohort windows and an honest rolling YC signal for the keyword map.
+- [x] Rebuild YC keyword data as cohort bands rather than one-month spikes.
+- [x] Update and verify the website’s three-stream comparison with the cohort-period treatment.
+- [x] Define a shared density index and platform-lane structure for multi-keyword comparison.
+- [x] Generate aligned monthly density series for Google, YC, and GitHub.
+- [x] Add an interactive multi-keyword trend figure while retaining the cohort-period map.
