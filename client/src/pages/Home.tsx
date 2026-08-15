@@ -36,6 +36,7 @@ import {
 } from "recharts";
 import researchData from "@/data/revisedSiteData.json";
 import "./AgentMap.css";
+import KeywordTiming from "@/components/KeywordTiming";
 
 const research: any = researchData;
 
@@ -103,6 +104,7 @@ export default function Home() {
         </a>
         <nav aria-label="Primary navigation">
           <a href="#attention">Attention</a>
+          <a href="#keywords">Keywords</a>
           <a href="#founders">Founders</a>
           <a href="#builders">Builders</a>
           <a href="#methods">Methods</a>
@@ -113,6 +115,7 @@ export default function Home() {
       <main id="top">
         <section className="hero">
           <img className="hero-field" src="/manus-storage/atlas-hero-field_3eaa5865.png" alt="" />
+          <div className="hero-brand-object" aria-hidden="true"><img src="/manus-storage/atlas-signal-knot_182b341b.png" alt="" /><div><span>AI / SIGNALS</span><b>ATLAS</b></div><i /><i /><i /></div>
           <div className="hero-copy">
             <div className="eyebrow"><span className="live-dot" /> EVIDENCE ATLAS · 14 AUG 2026</div>
             <h1>What the world <em>searches,</em><br />what founders <em>sell,</em><br />what developers <em>build.</em></h1>
@@ -125,7 +128,7 @@ export default function Home() {
           <aside className="hero-note">
             <p>THE EVIDENCE</p>
             <strong>Topic tags are not code authorship.<br />Directory tags are not ground truth.</strong>
-            <span>We added signed coding-agent commits and a direct, company-by-company YC audit.</span>
+            <span>Signed coding-agent commits and direct, company-by-company YC review sit beside the core signals.</span>
           </aside>
         </section>
 
@@ -164,7 +167,10 @@ export default function Home() {
           <a href="#audit">See the ledger <ArrowDownRight size={17} /></a>
         </section>
 
+        <KeywordTiming />
+
         <section className="founder-section" id="founders">
+          <div className="section-signal-thread" aria-hidden="true"><i /><i /><i /></div>
           <div className="section-wide-head"><div><SectionKicker index="02" stream="yc">Founder supply</SectionKicker><h2>YC’s AI tag is useful.<br /><em>It is not a census.</em></h2></div><div className="photo-note"><img src="/manus-storage/atlas-evidence-collage_bd1cda6a.png" alt="Abstract paper collage representing three evidence streams." /></div></div>
           <div className="audit-grid" id="audit">
             <article className="audit-hero-card"><span className="mini-label">DIRECT PUBLIC-DESCRIPTION REVIEW</span><div className="precision-number">75.0<span>–88.6%</span></div><p>of a random sample of <b>44 directory AI-tagged companies</b> were clearly AI-core under a strict reading; the range treats six sparse descriptions as unresolved rather than forcing a result.</p><div className="precision-bar"><i style={{ width: "75%" }} /><em style={{ width: "13.6%" }} /></div><div className="precision-labels"><span>33 AI-core</span><span>6 ambiguous</span><span>5 not evidenced</span></div></article>
@@ -175,12 +181,14 @@ export default function Home() {
         </section>
 
         <section className="builders-section" id="builders">
+          <div className="section-signal-thread section-signal-thread-light" aria-hidden="true"><i /><i /><i /></div>
           <SectionKicker index="03" stream="github">Developer building</SectionKicker>
           <div className="builder-head"><h2>Three GitHub lenses.<br /><em>One ecosystem, no false equivalence.</em></h2><div><SourceChip tone="github">GITHUB EVIDENCE</SourceChip><p>Repository metadata, topic tags, and signed coding-agent commits answer different questions. The charts keep them separate.</p></div></div>
           <div className="github-tabs" role="tablist" aria-label="GitHub evidence mode">{(Object.keys(githubModes) as Array<keyof typeof githubModes>).map((key) => <button key={key} className={githubMode === key ? "active" : ""} onClick={() => setGithubMode(key)}><span style={{ background: githubModes[key].color }} />{githubModes[key].label}</button>)}</div>
           <div className="github-chart-card">
             <div className="chart-head"><div><span className="mini-label">{githubConfig.unit.toUpperCase()} · MONTHLY</span><h3>{githubConfig.label}</h3></div><SourceChip tone="github">GitHub public data</SourceChip></div>
             <p className="chart-note">{githubConfig.note}</p>
+            <div className="github-field-notes"><span><b>WINDOW</b> Public, non-fork repositories only</span><span><b>MEANING</b> Metadata describes a project; it does not prove authorship or usage</span><span><b>READ IT AS</b> A construction surface, not market share</span></div>
             <ResponsiveContainer width="100%" height={345}><AreaChart data={githubChart} margin={{ top: 20, right: 10, left: -20, bottom: 0 }}><defs><linearGradient id="githubFill" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stopColor={githubConfig.color} stopOpacity={0.35} /><stop offset="100%" stopColor={githubConfig.color} stopOpacity={0.02} /></linearGradient></defs><CartesianGrid vertical={false} stroke="#C9D5CF" /><XAxis dataKey="shortMonth" tick={{ fill: "#536B62", fontSize: 11 }} interval={5} axisLine={false} tickLine={false} /><YAxis tick={{ fill: "#536B62", fontSize: 11 }} axisLine={false} tickLine={false} /><Tooltip content={<TooltipBox />} /><Area type="monotone" dataKey={githubMode} name={githubConfig.label} stroke={githubConfig.color} strokeWidth={3} fill="url(#githubFill)" /></AreaChart></ResponsiveContainer>
             <div className="github-key"><Braces size={19} /><span><b>What changed:</b> by 2026, the public code conversation is not just model access. It is increasingly about agent execution, routing, tool connections, memory, and fleets of coding agents.</span></div>
           </div>

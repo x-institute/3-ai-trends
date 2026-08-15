@@ -1,0 +1,3438 @@
+{
+  "period": "March 2023\u2013July 2026; Google is monthly, YC is cohort-timed, and GitHub uses semiannual 2023\u20132024 plus quarterly 2025\u20132026 repository-search windows.",
+  "concepts": [
+    {
+      "id": "agents",
+      "label": "Agents"
+    },
+    {
+      "id": "chatbots",
+      "label": "Chatbots"
+    },
+    {
+      "id": "voice_ai",
+      "label": "Voice AI"
+    },
+    {
+      "id": "agent_skills",
+      "label": "Agent skills"
+    },
+    {
+      "id": "agent_harnesses",
+      "label": "Agent harnesses"
+    },
+    {
+      "id": "agent_loops",
+      "label": "Agent loops"
+    },
+    {
+      "id": "recursive_self_improvement",
+      "label": "Recursive self-improvement"
+    },
+    {
+      "id": "automated_research",
+      "label": "Automated research"
+    }
+  ],
+  "google": [
+    {
+      "month": "2023-03",
+      "google_raw": 0.5,
+      "concept": "agents",
+      "google_index": 0.5
+    },
+    {
+      "month": "2023-04",
+      "google_raw": 0.9,
+      "concept": "agents",
+      "google_index": 1.0
+    },
+    {
+      "month": "2023-05",
+      "google_raw": 1.0,
+      "concept": "agents",
+      "google_index": 1.1
+    },
+    {
+      "month": "2023-06",
+      "google_raw": 1.0,
+      "concept": "agents",
+      "google_index": 1.1
+    },
+    {
+      "month": "2023-07",
+      "google_raw": 1.0,
+      "concept": "agents",
+      "google_index": 1.1
+    },
+    {
+      "month": "2023-08",
+      "google_raw": 0.875,
+      "concept": "agents",
+      "google_index": 0.9
+    },
+    {
+      "month": "2023-09",
+      "google_raw": 1.0,
+      "concept": "agents",
+      "google_index": 1.1
+    },
+    {
+      "month": "2023-10",
+      "google_raw": 1.0,
+      "concept": "agents",
+      "google_index": 1.1
+    },
+    {
+      "month": "2023-11",
+      "google_raw": 1.0,
+      "concept": "agents",
+      "google_index": 1.1
+    },
+    {
+      "month": "2023-12",
+      "google_raw": 1.0,
+      "concept": "agents",
+      "google_index": 1.1
+    },
+    {
+      "month": "2024-01",
+      "google_raw": 1.0,
+      "concept": "agents",
+      "google_index": 1.1
+    },
+    {
+      "month": "2024-02",
+      "google_raw": 1.0,
+      "concept": "agents",
+      "google_index": 1.1
+    },
+    {
+      "month": "2024-03",
+      "google_raw": 1.0,
+      "concept": "agents",
+      "google_index": 1.1
+    },
+    {
+      "month": "2024-04",
+      "google_raw": 1.0,
+      "concept": "agents",
+      "google_index": 1.1
+    },
+    {
+      "month": "2024-05",
+      "google_raw": 1.0,
+      "concept": "agents",
+      "google_index": 1.1
+    },
+    {
+      "month": "2024-06",
+      "google_raw": 1.0,
+      "concept": "agents",
+      "google_index": 1.1
+    },
+    {
+      "month": "2024-07",
+      "google_raw": 1.25,
+      "concept": "agents",
+      "google_index": 1.3
+    },
+    {
+      "month": "2024-08",
+      "google_raw": 1.25,
+      "concept": "agents",
+      "google_index": 1.3
+    },
+    {
+      "month": "2024-09",
+      "google_raw": 2.0,
+      "concept": "agents",
+      "google_index": 2.1
+    },
+    {
+      "month": "2024-10",
+      "google_raw": 2.0,
+      "concept": "agents",
+      "google_index": 2.1
+    },
+    {
+      "month": "2024-11",
+      "google_raw": 2.75,
+      "concept": "agents",
+      "google_index": 2.9
+    },
+    {
+      "month": "2024-12",
+      "google_raw": 4.2,
+      "concept": "agents",
+      "google_index": 4.5
+    },
+    {
+      "month": "2025-01",
+      "google_raw": 6.75,
+      "concept": "agents",
+      "google_index": 7.2
+    },
+    {
+      "month": "2025-02",
+      "google_raw": 6.75,
+      "concept": "agents",
+      "google_index": 7.2
+    },
+    {
+      "month": "2025-03",
+      "google_raw": 8.4,
+      "concept": "agents",
+      "google_index": 9.0
+    },
+    {
+      "month": "2025-04",
+      "google_raw": 8.25,
+      "concept": "agents",
+      "google_index": 8.8
+    },
+    {
+      "month": "2025-05",
+      "google_raw": 9.25,
+      "concept": "agents",
+      "google_index": 9.9
+    },
+    {
+      "month": "2025-06",
+      "google_raw": 14.6,
+      "concept": "agents",
+      "google_index": 15.6
+    },
+    {
+      "month": "2025-07",
+      "google_raw": 15.75,
+      "concept": "agents",
+      "google_index": 16.8
+    },
+    {
+      "month": "2025-08",
+      "google_raw": 35.2,
+      "concept": "agents",
+      "google_index": 37.6
+    },
+    {
+      "month": "2025-09",
+      "google_raw": 28.5,
+      "concept": "agents",
+      "google_index": 30.5
+    },
+    {
+      "month": "2025-10",
+      "google_raw": 31.75,
+      "concept": "agents",
+      "google_index": 34.0
+    },
+    {
+      "month": "2025-11",
+      "google_raw": 29.2,
+      "concept": "agents",
+      "google_index": 31.2
+    },
+    {
+      "month": "2025-12",
+      "google_raw": 26.5,
+      "concept": "agents",
+      "google_index": 28.3
+    },
+    {
+      "month": "2026-01",
+      "google_raw": 34.0,
+      "concept": "agents",
+      "google_index": 36.4
+    },
+    {
+      "month": "2026-02",
+      "google_raw": 48.25,
+      "concept": "agents",
+      "google_index": 51.6
+    },
+    {
+      "month": "2026-03",
+      "google_raw": 67.2,
+      "concept": "agents",
+      "google_index": 71.9
+    },
+    {
+      "month": "2026-04",
+      "google_raw": 70.5,
+      "concept": "agents",
+      "google_index": 75.4
+    },
+    {
+      "month": "2026-05",
+      "google_raw": 92.4,
+      "concept": "agents",
+      "google_index": 98.8
+    },
+    {
+      "month": "2026-06",
+      "google_raw": 93.5,
+      "concept": "agents",
+      "google_index": 100.0
+    },
+    {
+      "month": "2026-07",
+      "google_raw": 64.5,
+      "concept": "agents",
+      "google_index": 69.0
+    },
+    {
+      "month": "2023-03",
+      "google_raw": 21.0,
+      "concept": "chatbots",
+      "google_index": 59.6
+    },
+    {
+      "month": "2023-04",
+      "google_raw": 19.4,
+      "concept": "chatbots",
+      "google_index": 55.0
+    },
+    {
+      "month": "2023-05",
+      "google_raw": 16.75,
+      "concept": "chatbots",
+      "google_index": 47.5
+    },
+    {
+      "month": "2023-06",
+      "google_raw": 14.5,
+      "concept": "chatbots",
+      "google_index": 41.1
+    },
+    {
+      "month": "2023-07",
+      "google_raw": 14.2,
+      "concept": "chatbots",
+      "google_index": 40.3
+    },
+    {
+      "month": "2023-08",
+      "google_raw": 12.5,
+      "concept": "chatbots",
+      "google_index": 35.5
+    },
+    {
+      "month": "2023-09",
+      "google_raw": 13.5,
+      "concept": "chatbots",
+      "google_index": 38.3
+    },
+    {
+      "month": "2023-10",
+      "google_raw": 13.2,
+      "concept": "chatbots",
+      "google_index": 37.4
+    },
+    {
+      "month": "2023-11",
+      "google_raw": 13.5,
+      "concept": "chatbots",
+      "google_index": 38.3
+    },
+    {
+      "month": "2023-12",
+      "google_raw": 12.0,
+      "concept": "chatbots",
+      "google_index": 34.0
+    },
+    {
+      "month": "2024-01",
+      "google_raw": 13.0,
+      "concept": "chatbots",
+      "google_index": 36.9
+    },
+    {
+      "month": "2024-02",
+      "google_raw": 14.5,
+      "concept": "chatbots",
+      "google_index": 41.1
+    },
+    {
+      "month": "2024-03",
+      "google_raw": 14.0,
+      "concept": "chatbots",
+      "google_index": 39.7
+    },
+    {
+      "month": "2024-04",
+      "google_raw": 14.5,
+      "concept": "chatbots",
+      "google_index": 41.1
+    },
+    {
+      "month": "2024-05",
+      "google_raw": 14.0,
+      "concept": "chatbots",
+      "google_index": 39.7
+    },
+    {
+      "month": "2024-06",
+      "google_raw": 13.2,
+      "concept": "chatbots",
+      "google_index": 37.4
+    },
+    {
+      "month": "2024-07",
+      "google_raw": 13.0,
+      "concept": "chatbots",
+      "google_index": 36.9
+    },
+    {
+      "month": "2024-08",
+      "google_raw": 13.0,
+      "concept": "chatbots",
+      "google_index": 36.9
+    },
+    {
+      "month": "2024-09",
+      "google_raw": 13.0,
+      "concept": "chatbots",
+      "google_index": 36.9
+    },
+    {
+      "month": "2024-10",
+      "google_raw": 15.25,
+      "concept": "chatbots",
+      "google_index": 43.3
+    },
+    {
+      "month": "2024-11",
+      "google_raw": 16.0,
+      "concept": "chatbots",
+      "google_index": 45.4
+    },
+    {
+      "month": "2024-12",
+      "google_raw": 13.6,
+      "concept": "chatbots",
+      "google_index": 38.6
+    },
+    {
+      "month": "2025-01",
+      "google_raw": 15.5,
+      "concept": "chatbots",
+      "google_index": 44.0
+    },
+    {
+      "month": "2025-02",
+      "google_raw": 16.75,
+      "concept": "chatbots",
+      "google_index": 47.5
+    },
+    {
+      "month": "2025-03",
+      "google_raw": 17.4,
+      "concept": "chatbots",
+      "google_index": 49.4
+    },
+    {
+      "month": "2025-04",
+      "google_raw": 16.0,
+      "concept": "chatbots",
+      "google_index": 45.4
+    },
+    {
+      "month": "2025-05",
+      "google_raw": 16.5,
+      "concept": "chatbots",
+      "google_index": 46.8
+    },
+    {
+      "month": "2025-06",
+      "google_raw": 20.0,
+      "concept": "chatbots",
+      "google_index": 56.7
+    },
+    {
+      "month": "2025-07",
+      "google_raw": 21.75,
+      "concept": "chatbots",
+      "google_index": 61.7
+    },
+    {
+      "month": "2025-08",
+      "google_raw": 34.6,
+      "concept": "chatbots",
+      "google_index": 98.2
+    },
+    {
+      "month": "2025-09",
+      "google_raw": 32.25,
+      "concept": "chatbots",
+      "google_index": 91.5
+    },
+    {
+      "month": "2025-10",
+      "google_raw": 26.75,
+      "concept": "chatbots",
+      "google_index": 75.9
+    },
+    {
+      "month": "2025-11",
+      "google_raw": 26.4,
+      "concept": "chatbots",
+      "google_index": 74.9
+    },
+    {
+      "month": "2025-12",
+      "google_raw": 23.25,
+      "concept": "chatbots",
+      "google_index": 66.0
+    },
+    {
+      "month": "2026-01",
+      "google_raw": 27.0,
+      "concept": "chatbots",
+      "google_index": 76.6
+    },
+    {
+      "month": "2026-02",
+      "google_raw": 35.25,
+      "concept": "chatbots",
+      "google_index": 100.0
+    },
+    {
+      "month": "2026-03",
+      "google_raw": 32.8,
+      "concept": "chatbots",
+      "google_index": 93.0
+    },
+    {
+      "month": "2026-04",
+      "google_raw": 33.0,
+      "concept": "chatbots",
+      "google_index": 93.6
+    },
+    {
+      "month": "2026-05",
+      "google_raw": 34.8,
+      "concept": "chatbots",
+      "google_index": 98.7
+    },
+    {
+      "month": "2026-06",
+      "google_raw": 33.0,
+      "concept": "chatbots",
+      "google_index": 93.6
+    },
+    {
+      "month": "2026-07",
+      "google_raw": 27.0,
+      "concept": "chatbots",
+      "google_index": 76.6
+    },
+    {
+      "month": "2023-03",
+      "google_raw": 10.5,
+      "concept": "voice_ai",
+      "google_index": 21.2
+    },
+    {
+      "month": "2023-04",
+      "google_raw": 12.4,
+      "concept": "voice_ai",
+      "google_index": 25.0
+    },
+    {
+      "month": "2023-05",
+      "google_raw": 13.0,
+      "concept": "voice_ai",
+      "google_index": 26.2
+    },
+    {
+      "month": "2023-06",
+      "google_raw": 13.5,
+      "concept": "voice_ai",
+      "google_index": 27.2
+    },
+    {
+      "month": "2023-07",
+      "google_raw": 14.0,
+      "concept": "voice_ai",
+      "google_index": 28.2
+    },
+    {
+      "month": "2023-08",
+      "google_raw": 13.75,
+      "concept": "voice_ai",
+      "google_index": 27.7
+    },
+    {
+      "month": "2023-09",
+      "google_raw": 13.5,
+      "concept": "voice_ai",
+      "google_index": 27.2
+    },
+    {
+      "month": "2023-10",
+      "google_raw": 13.2,
+      "concept": "voice_ai",
+      "google_index": 26.6
+    },
+    {
+      "month": "2023-11",
+      "google_raw": 13.25,
+      "concept": "voice_ai",
+      "google_index": 26.7
+    },
+    {
+      "month": "2023-12",
+      "google_raw": 14.2,
+      "concept": "voice_ai",
+      "google_index": 28.6
+    },
+    {
+      "month": "2024-01",
+      "google_raw": 14.0,
+      "concept": "voice_ai",
+      "google_index": 28.2
+    },
+    {
+      "month": "2024-02",
+      "google_raw": 14.75,
+      "concept": "voice_ai",
+      "google_index": 29.7
+    },
+    {
+      "month": "2024-03",
+      "google_raw": 14.4,
+      "concept": "voice_ai",
+      "google_index": 29.0
+    },
+    {
+      "month": "2024-04",
+      "google_raw": 14.75,
+      "concept": "voice_ai",
+      "google_index": 29.7
+    },
+    {
+      "month": "2024-05",
+      "google_raw": 15.5,
+      "concept": "voice_ai",
+      "google_index": 31.2
+    },
+    {
+      "month": "2024-06",
+      "google_raw": 14.4,
+      "concept": "voice_ai",
+      "google_index": 29.0
+    },
+    {
+      "month": "2024-07",
+      "google_raw": 14.75,
+      "concept": "voice_ai",
+      "google_index": 29.7
+    },
+    {
+      "month": "2024-08",
+      "google_raw": 14.75,
+      "concept": "voice_ai",
+      "google_index": 29.7
+    },
+    {
+      "month": "2024-09",
+      "google_raw": 14.8,
+      "concept": "voice_ai",
+      "google_index": 29.8
+    },
+    {
+      "month": "2024-10",
+      "google_raw": 15.5,
+      "concept": "voice_ai",
+      "google_index": 31.2
+    },
+    {
+      "month": "2024-11",
+      "google_raw": 15.25,
+      "concept": "voice_ai",
+      "google_index": 30.7
+    },
+    {
+      "month": "2024-12",
+      "google_raw": 15.4,
+      "concept": "voice_ai",
+      "google_index": 31.0
+    },
+    {
+      "month": "2025-01",
+      "google_raw": 16.0,
+      "concept": "voice_ai",
+      "google_index": 32.3
+    },
+    {
+      "month": "2025-02",
+      "google_raw": 16.25,
+      "concept": "voice_ai",
+      "google_index": 32.8
+    },
+    {
+      "month": "2025-03",
+      "google_raw": 17.2,
+      "concept": "voice_ai",
+      "google_index": 34.7
+    },
+    {
+      "month": "2025-04",
+      "google_raw": 17.0,
+      "concept": "voice_ai",
+      "google_index": 34.3
+    },
+    {
+      "month": "2025-05",
+      "google_raw": 17.5,
+      "concept": "voice_ai",
+      "google_index": 35.3
+    },
+    {
+      "month": "2025-06",
+      "google_raw": 21.0,
+      "concept": "voice_ai",
+      "google_index": 42.3
+    },
+    {
+      "month": "2025-07",
+      "google_raw": 22.0,
+      "concept": "voice_ai",
+      "google_index": 44.4
+    },
+    {
+      "month": "2025-08",
+      "google_raw": 37.0,
+      "concept": "voice_ai",
+      "google_index": 74.6
+    },
+    {
+      "month": "2025-09",
+      "google_raw": 37.5,
+      "concept": "voice_ai",
+      "google_index": 75.6
+    },
+    {
+      "month": "2025-10",
+      "google_raw": 33.75,
+      "concept": "voice_ai",
+      "google_index": 68.0
+    },
+    {
+      "month": "2025-11",
+      "google_raw": 32.4,
+      "concept": "voice_ai",
+      "google_index": 65.3
+    },
+    {
+      "month": "2025-12",
+      "google_raw": 30.75,
+      "concept": "voice_ai",
+      "google_index": 62.0
+    },
+    {
+      "month": "2026-01",
+      "google_raw": 31.0,
+      "concept": "voice_ai",
+      "google_index": 62.5
+    },
+    {
+      "month": "2026-02",
+      "google_raw": 33.75,
+      "concept": "voice_ai",
+      "google_index": 68.0
+    },
+    {
+      "month": "2026-03",
+      "google_raw": 42.4,
+      "concept": "voice_ai",
+      "google_index": 85.5
+    },
+    {
+      "month": "2026-04",
+      "google_raw": 46.5,
+      "concept": "voice_ai",
+      "google_index": 93.8
+    },
+    {
+      "month": "2026-05",
+      "google_raw": 49.6,
+      "concept": "voice_ai",
+      "google_index": 100.0
+    },
+    {
+      "month": "2026-06",
+      "google_raw": 44.75,
+      "concept": "voice_ai",
+      "google_index": 90.2
+    },
+    {
+      "month": "2026-07",
+      "google_raw": 33.25,
+      "concept": "voice_ai",
+      "google_index": 67.0
+    },
+    {
+      "month": "2023-03",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2023-04",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2023-05",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2023-06",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2023-07",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2023-08",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2023-09",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2023-10",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2023-11",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2023-12",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2024-01",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2024-02",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2024-03",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2024-04",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2024-05",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2024-06",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2024-07",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2024-08",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2024-09",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2024-10",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2024-11",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2024-12",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2025-01",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2025-02",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2025-03",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2025-04",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2025-05",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2025-06",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2025-07",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2025-08",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2025-09",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2025-10",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2025-11",
+      "google_raw": 0.5,
+      "concept": "agent_skills",
+      "google_index": 11.1
+    },
+    {
+      "month": "2025-12",
+      "google_raw": 0.875,
+      "concept": "agent_skills",
+      "google_index": 19.4
+    },
+    {
+      "month": "2026-01",
+      "google_raw": 1.25,
+      "concept": "agent_skills",
+      "google_index": 27.8
+    },
+    {
+      "month": "2026-02",
+      "google_raw": 1.75,
+      "concept": "agent_skills",
+      "google_index": 38.9
+    },
+    {
+      "month": "2026-03",
+      "google_raw": 3.0,
+      "concept": "agent_skills",
+      "google_index": 66.7
+    },
+    {
+      "month": "2026-04",
+      "google_raw": 3.0,
+      "concept": "agent_skills",
+      "google_index": 66.7
+    },
+    {
+      "month": "2026-05",
+      "google_raw": 4.0,
+      "concept": "agent_skills",
+      "google_index": 88.9
+    },
+    {
+      "month": "2026-06",
+      "google_raw": 4.5,
+      "concept": "agent_skills",
+      "google_index": 100.0
+    },
+    {
+      "month": "2026-07",
+      "google_raw": 3.25,
+      "concept": "agent_skills",
+      "google_index": 72.2
+    },
+    {
+      "month": "2023-03",
+      "google_raw": 0.125,
+      "concept": "agent_harnesses",
+      "google_index": 4.5
+    },
+    {
+      "month": "2023-04",
+      "google_raw": 0.1,
+      "concept": "agent_harnesses",
+      "google_index": 3.6
+    },
+    {
+      "month": "2023-05",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-06",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-07",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-08",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-09",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-10",
+      "google_raw": 0.1,
+      "concept": "agent_harnesses",
+      "google_index": 3.6
+    },
+    {
+      "month": "2023-11",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-12",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-01",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-02",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-03",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-04",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-05",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-06",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-07",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-08",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-09",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-10",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-11",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-12",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2025-01",
+      "google_raw": 0.125,
+      "concept": "agent_harnesses",
+      "google_index": 4.5
+    },
+    {
+      "month": "2025-02",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2025-03",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2025-04",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2025-05",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2025-06",
+      "google_raw": 0.0,
+      "concept": "agent_harnesses",
+      "google_index": 0.0
+    },
+    {
+      "month": "2025-07",
+      "google_raw": 0.5,
+      "concept": "agent_harnesses",
+      "google_index": 18.2
+    },
+    {
+      "month": "2025-08",
+      "google_raw": 0.5,
+      "concept": "agent_harnesses",
+      "google_index": 18.2
+    },
+    {
+      "month": "2025-09",
+      "google_raw": 0.5,
+      "concept": "agent_harnesses",
+      "google_index": 18.2
+    },
+    {
+      "month": "2025-10",
+      "google_raw": 0.5,
+      "concept": "agent_harnesses",
+      "google_index": 18.2
+    },
+    {
+      "month": "2025-11",
+      "google_raw": 0.5,
+      "concept": "agent_harnesses",
+      "google_index": 18.2
+    },
+    {
+      "month": "2025-12",
+      "google_raw": 0.5,
+      "concept": "agent_harnesses",
+      "google_index": 18.2
+    },
+    {
+      "month": "2026-01",
+      "google_raw": 0.5,
+      "concept": "agent_harnesses",
+      "google_index": 18.2
+    },
+    {
+      "month": "2026-02",
+      "google_raw": 0.5,
+      "concept": "agent_harnesses",
+      "google_index": 18.2
+    },
+    {
+      "month": "2026-03",
+      "google_raw": 1.2,
+      "concept": "agent_harnesses",
+      "google_index": 43.6
+    },
+    {
+      "month": "2026-04",
+      "google_raw": 2.0,
+      "concept": "agent_harnesses",
+      "google_index": 72.7
+    },
+    {
+      "month": "2026-05",
+      "google_raw": 2.4,
+      "concept": "agent_harnesses",
+      "google_index": 87.3
+    },
+    {
+      "month": "2026-06",
+      "google_raw": 2.75,
+      "concept": "agent_harnesses",
+      "google_index": 100.0
+    },
+    {
+      "month": "2026-07",
+      "google_raw": 2.0,
+      "concept": "agent_harnesses",
+      "google_index": 72.7
+    },
+    {
+      "month": "2023-03",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2023-04",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2023-05",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2023-06",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2023-07",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2023-08",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2023-09",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2023-10",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2023-11",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2023-12",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2024-01",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2024-02",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2024-03",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2024-04",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2024-05",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2024-06",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2024-07",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2024-08",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2024-09",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2024-10",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2024-11",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2024-12",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2025-01",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2025-02",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2025-03",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2025-04",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2025-05",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2025-06",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2025-07",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2025-08",
+      "google_raw": 0.8,
+      "concept": "agent_loops",
+      "google_index": 26.7
+    },
+    {
+      "month": "2025-09",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2025-10",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2025-11",
+      "google_raw": 0.5,
+      "concept": "agent_loops",
+      "google_index": 16.7
+    },
+    {
+      "month": "2025-12",
+      "google_raw": 0.625,
+      "concept": "agent_loops",
+      "google_index": 20.8
+    },
+    {
+      "month": "2026-01",
+      "google_raw": 1.0,
+      "concept": "agent_loops",
+      "google_index": 33.3
+    },
+    {
+      "month": "2026-02",
+      "google_raw": 1.0,
+      "concept": "agent_loops",
+      "google_index": 33.3
+    },
+    {
+      "month": "2026-03",
+      "google_raw": 1.4,
+      "concept": "agent_loops",
+      "google_index": 46.7
+    },
+    {
+      "month": "2026-04",
+      "google_raw": 2.0,
+      "concept": "agent_loops",
+      "google_index": 66.7
+    },
+    {
+      "month": "2026-05",
+      "google_raw": 2.2,
+      "concept": "agent_loops",
+      "google_index": 73.3
+    },
+    {
+      "month": "2026-06",
+      "google_raw": 3.0,
+      "concept": "agent_loops",
+      "google_index": 100.0
+    },
+    {
+      "month": "2026-07",
+      "google_raw": 1.5,
+      "concept": "agent_loops",
+      "google_index": 50.0
+    },
+    {
+      "month": "2023-03",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-04",
+      "google_raw": 0.1,
+      "concept": "recursive_self_improvement",
+      "google_index": 20.0
+    },
+    {
+      "month": "2023-05",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-06",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-07",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-08",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-09",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-10",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-11",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-12",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-01",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-02",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-03",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-04",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-05",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-06",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-07",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-08",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-09",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-10",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-11",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-12",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2025-01",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2025-02",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2025-03",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2025-04",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2025-05",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2025-06",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2025-07",
+      "google_raw": 0.125,
+      "concept": "recursive_self_improvement",
+      "google_index": 25.0
+    },
+    {
+      "month": "2025-08",
+      "google_raw": 0.4,
+      "concept": "recursive_self_improvement",
+      "google_index": 80.0
+    },
+    {
+      "month": "2025-09",
+      "google_raw": 0.25,
+      "concept": "recursive_self_improvement",
+      "google_index": 50.0
+    },
+    {
+      "month": "2025-10",
+      "google_raw": 0.125,
+      "concept": "recursive_self_improvement",
+      "google_index": 25.0
+    },
+    {
+      "month": "2025-11",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2025-12",
+      "google_raw": 0.125,
+      "concept": "recursive_self_improvement",
+      "google_index": 25.0
+    },
+    {
+      "month": "2026-01",
+      "google_raw": 0.0,
+      "concept": "recursive_self_improvement",
+      "google_index": 0.0
+    },
+    {
+      "month": "2026-02",
+      "google_raw": 0.375,
+      "concept": "recursive_self_improvement",
+      "google_index": 75.0
+    },
+    {
+      "month": "2026-03",
+      "google_raw": 0.5,
+      "concept": "recursive_self_improvement",
+      "google_index": 100.0
+    },
+    {
+      "month": "2026-04",
+      "google_raw": 0.5,
+      "concept": "recursive_self_improvement",
+      "google_index": 100.0
+    },
+    {
+      "month": "2026-05",
+      "google_raw": 0.5,
+      "concept": "recursive_self_improvement",
+      "google_index": 100.0
+    },
+    {
+      "month": "2026-06",
+      "google_raw": 0.5,
+      "concept": "recursive_self_improvement",
+      "google_index": 100.0
+    },
+    {
+      "month": "2026-07",
+      "google_raw": 0.5,
+      "concept": "recursive_self_improvement",
+      "google_index": 100.0
+    },
+    {
+      "month": "2023-03",
+      "google_raw": 0.0,
+      "concept": "automated_research",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-04",
+      "google_raw": 0.0,
+      "concept": "automated_research",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-05",
+      "google_raw": 0.0,
+      "concept": "automated_research",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-06",
+      "google_raw": 0.0,
+      "concept": "automated_research",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-07",
+      "google_raw": 0.0,
+      "concept": "automated_research",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-08",
+      "google_raw": 0.125,
+      "concept": "automated_research",
+      "google_index": 2.1
+    },
+    {
+      "month": "2023-09",
+      "google_raw": 0.0,
+      "concept": "automated_research",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-10",
+      "google_raw": 0.0,
+      "concept": "automated_research",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-11",
+      "google_raw": 0.0,
+      "concept": "automated_research",
+      "google_index": 0.0
+    },
+    {
+      "month": "2023-12",
+      "google_raw": 0.0,
+      "concept": "automated_research",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-01",
+      "google_raw": 0.0,
+      "concept": "automated_research",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-02",
+      "google_raw": 0.25,
+      "concept": "automated_research",
+      "google_index": 4.2
+    },
+    {
+      "month": "2024-03",
+      "google_raw": 0.0,
+      "concept": "automated_research",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-04",
+      "google_raw": 0.0,
+      "concept": "automated_research",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-05",
+      "google_raw": 0.0,
+      "concept": "automated_research",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-06",
+      "google_raw": 0.0,
+      "concept": "automated_research",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-07",
+      "google_raw": 0.0,
+      "concept": "automated_research",
+      "google_index": 0.0
+    },
+    {
+      "month": "2024-08",
+      "google_raw": 0.125,
+      "concept": "automated_research",
+      "google_index": 2.1
+    },
+    {
+      "month": "2024-09",
+      "google_raw": 0.2,
+      "concept": "automated_research",
+      "google_index": 3.3
+    },
+    {
+      "month": "2024-10",
+      "google_raw": 0.25,
+      "concept": "automated_research",
+      "google_index": 4.2
+    },
+    {
+      "month": "2024-11",
+      "google_raw": 0.5,
+      "concept": "automated_research",
+      "google_index": 8.3
+    },
+    {
+      "month": "2024-12",
+      "google_raw": 0.3,
+      "concept": "automated_research",
+      "google_index": 5.0
+    },
+    {
+      "month": "2025-01",
+      "google_raw": 0.5,
+      "concept": "automated_research",
+      "google_index": 8.3
+    },
+    {
+      "month": "2025-02",
+      "google_raw": 0.5,
+      "concept": "automated_research",
+      "google_index": 8.3
+    },
+    {
+      "month": "2025-03",
+      "google_raw": 0.5,
+      "concept": "automated_research",
+      "google_index": 8.3
+    },
+    {
+      "month": "2025-04",
+      "google_raw": 0.5,
+      "concept": "automated_research",
+      "google_index": 8.3
+    },
+    {
+      "month": "2025-05",
+      "google_raw": 0.5,
+      "concept": "automated_research",
+      "google_index": 8.3
+    },
+    {
+      "month": "2025-06",
+      "google_raw": 0.8,
+      "concept": "automated_research",
+      "google_index": 13.3
+    },
+    {
+      "month": "2025-07",
+      "google_raw": 0.625,
+      "concept": "automated_research",
+      "google_index": 10.4
+    },
+    {
+      "month": "2025-08",
+      "google_raw": 1.6,
+      "concept": "automated_research",
+      "google_index": 26.7
+    },
+    {
+      "month": "2025-09",
+      "google_raw": 1.5,
+      "concept": "automated_research",
+      "google_index": 25.0
+    },
+    {
+      "month": "2025-10",
+      "google_raw": 1.75,
+      "concept": "automated_research",
+      "google_index": 29.2
+    },
+    {
+      "month": "2025-11",
+      "google_raw": 1.8,
+      "concept": "automated_research",
+      "google_index": 30.0
+    },
+    {
+      "month": "2025-12",
+      "google_raw": 1.5,
+      "concept": "automated_research",
+      "google_index": 25.0
+    },
+    {
+      "month": "2026-01",
+      "google_raw": 2.25,
+      "concept": "automated_research",
+      "google_index": 37.5
+    },
+    {
+      "month": "2026-02",
+      "google_raw": 2.75,
+      "concept": "automated_research",
+      "google_index": 45.8
+    },
+    {
+      "month": "2026-03",
+      "google_raw": 3.8,
+      "concept": "automated_research",
+      "google_index": 63.3
+    },
+    {
+      "month": "2026-04",
+      "google_raw": 3.75,
+      "concept": "automated_research",
+      "google_index": 62.5
+    },
+    {
+      "month": "2026-05",
+      "google_raw": 5.0,
+      "concept": "automated_research",
+      "google_index": 83.3
+    },
+    {
+      "month": "2026-06",
+      "google_raw": 6.0,
+      "concept": "automated_research",
+      "google_index": 100.0
+    },
+    {
+      "month": "2026-07",
+      "google_raw": 3.25,
+      "concept": "automated_research",
+      "google_index": 54.2
+    }
+  ],
+  "yc": [
+    {
+      "concept": "agent_harnesses",
+      "month": "2023-07",
+      "batch": "Summer 2023",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_harnesses",
+      "month": "2024-01",
+      "batch": "Winter 2024",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_harnesses",
+      "month": "2024-07",
+      "batch": "Summer 2024",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_harnesses",
+      "month": "2024-10",
+      "batch": "Fall 2024",
+      "yc_mentions": 1,
+      "yc_index": 100.0
+    },
+    {
+      "concept": "agent_harnesses",
+      "month": "2025-01",
+      "batch": "Winter 2025",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_harnesses",
+      "month": "2025-04",
+      "batch": "Spring 2025",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_harnesses",
+      "month": "2025-07",
+      "batch": "Summer 2025",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_harnesses",
+      "month": "2025-10",
+      "batch": "Fall 2025",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_harnesses",
+      "month": "2026-01",
+      "batch": "Winter 2026",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_harnesses",
+      "month": "2026-04",
+      "batch": "Spring 2026",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_harnesses",
+      "month": "2026-07",
+      "batch": "Summer 2026",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_loops",
+      "month": "2023-07",
+      "batch": "Summer 2023",
+      "yc_mentions": 1,
+      "yc_index": 50.0
+    },
+    {
+      "concept": "agent_loops",
+      "month": "2024-01",
+      "batch": "Winter 2024",
+      "yc_mentions": 1,
+      "yc_index": 50.0
+    },
+    {
+      "concept": "agent_loops",
+      "month": "2024-07",
+      "batch": "Summer 2024",
+      "yc_mentions": 2,
+      "yc_index": 100.0
+    },
+    {
+      "concept": "agent_loops",
+      "month": "2024-10",
+      "batch": "Fall 2024",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_loops",
+      "month": "2025-01",
+      "batch": "Winter 2025",
+      "yc_mentions": 1,
+      "yc_index": 50.0
+    },
+    {
+      "concept": "agent_loops",
+      "month": "2025-04",
+      "batch": "Spring 2025",
+      "yc_mentions": 1,
+      "yc_index": 50.0
+    },
+    {
+      "concept": "agent_loops",
+      "month": "2025-07",
+      "batch": "Summer 2025",
+      "yc_mentions": 1,
+      "yc_index": 50.0
+    },
+    {
+      "concept": "agent_loops",
+      "month": "2025-10",
+      "batch": "Fall 2025",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_loops",
+      "month": "2026-01",
+      "batch": "Winter 2026",
+      "yc_mentions": 1,
+      "yc_index": 50.0
+    },
+    {
+      "concept": "agent_loops",
+      "month": "2026-04",
+      "batch": "Spring 2026",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_loops",
+      "month": "2026-07",
+      "batch": "Summer 2026",
+      "yc_mentions": 1,
+      "yc_index": 50.0
+    },
+    {
+      "concept": "agent_skills",
+      "month": "2023-07",
+      "batch": "Summer 2023",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_skills",
+      "month": "2024-01",
+      "batch": "Winter 2024",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_skills",
+      "month": "2024-07",
+      "batch": "Summer 2024",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_skills",
+      "month": "2024-10",
+      "batch": "Fall 2024",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_skills",
+      "month": "2025-01",
+      "batch": "Winter 2025",
+      "yc_mentions": 1,
+      "yc_index": 100.0
+    },
+    {
+      "concept": "agent_skills",
+      "month": "2025-04",
+      "batch": "Spring 2025",
+      "yc_mentions": 1,
+      "yc_index": 100.0
+    },
+    {
+      "concept": "agent_skills",
+      "month": "2025-07",
+      "batch": "Summer 2025",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_skills",
+      "month": "2025-10",
+      "batch": "Fall 2025",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_skills",
+      "month": "2026-01",
+      "batch": "Winter 2026",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_skills",
+      "month": "2026-04",
+      "batch": "Spring 2026",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "agent_skills",
+      "month": "2026-07",
+      "batch": "Summer 2026",
+      "yc_mentions": 1,
+      "yc_index": 100.0
+    },
+    {
+      "concept": "agents",
+      "month": "2023-07",
+      "batch": "Summer 2023",
+      "yc_mentions": 37,
+      "yc_index": 86.0
+    },
+    {
+      "concept": "agents",
+      "month": "2024-01",
+      "batch": "Winter 2024",
+      "yc_mentions": 43,
+      "yc_index": 100.0
+    },
+    {
+      "concept": "agents",
+      "month": "2024-07",
+      "batch": "Summer 2024",
+      "yc_mentions": 40,
+      "yc_index": 93.0
+    },
+    {
+      "concept": "agents",
+      "month": "2024-10",
+      "batch": "Fall 2024",
+      "yc_mentions": 7,
+      "yc_index": 16.3
+    },
+    {
+      "concept": "agents",
+      "month": "2025-01",
+      "batch": "Winter 2025",
+      "yc_mentions": 31,
+      "yc_index": 72.1
+    },
+    {
+      "concept": "agents",
+      "month": "2025-04",
+      "batch": "Spring 2025",
+      "yc_mentions": 26,
+      "yc_index": 60.5
+    },
+    {
+      "concept": "agents",
+      "month": "2025-07",
+      "batch": "Summer 2025",
+      "yc_mentions": 36,
+      "yc_index": 83.7
+    },
+    {
+      "concept": "agents",
+      "month": "2025-10",
+      "batch": "Fall 2025",
+      "yc_mentions": 28,
+      "yc_index": 65.1
+    },
+    {
+      "concept": "agents",
+      "month": "2026-01",
+      "batch": "Winter 2026",
+      "yc_mentions": 8,
+      "yc_index": 18.6
+    },
+    {
+      "concept": "agents",
+      "month": "2026-04",
+      "batch": "Spring 2026",
+      "yc_mentions": 9,
+      "yc_index": 20.9
+    },
+    {
+      "concept": "agents",
+      "month": "2026-07",
+      "batch": "Summer 2026",
+      "yc_mentions": 39,
+      "yc_index": 90.7
+    },
+    {
+      "concept": "automated_research",
+      "month": "2023-07",
+      "batch": "Summer 2023",
+      "yc_mentions": 1,
+      "yc_index": 100.0
+    },
+    {
+      "concept": "automated_research",
+      "month": "2024-01",
+      "batch": "Winter 2024",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "automated_research",
+      "month": "2024-07",
+      "batch": "Summer 2024",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "automated_research",
+      "month": "2024-10",
+      "batch": "Fall 2024",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "automated_research",
+      "month": "2025-01",
+      "batch": "Winter 2025",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "automated_research",
+      "month": "2025-04",
+      "batch": "Spring 2025",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "automated_research",
+      "month": "2025-07",
+      "batch": "Summer 2025",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "automated_research",
+      "month": "2025-10",
+      "batch": "Fall 2025",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "automated_research",
+      "month": "2026-01",
+      "batch": "Winter 2026",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "automated_research",
+      "month": "2026-04",
+      "batch": "Spring 2026",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "automated_research",
+      "month": "2026-07",
+      "batch": "Summer 2026",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "chatbots",
+      "month": "2023-07",
+      "batch": "Summer 2023",
+      "yc_mentions": 12,
+      "yc_index": 57.1
+    },
+    {
+      "concept": "chatbots",
+      "month": "2024-01",
+      "batch": "Winter 2024",
+      "yc_mentions": 21,
+      "yc_index": 100.0
+    },
+    {
+      "concept": "chatbots",
+      "month": "2024-07",
+      "batch": "Summer 2024",
+      "yc_mentions": 15,
+      "yc_index": 71.4
+    },
+    {
+      "concept": "chatbots",
+      "month": "2024-10",
+      "batch": "Fall 2024",
+      "yc_mentions": 5,
+      "yc_index": 23.8
+    },
+    {
+      "concept": "chatbots",
+      "month": "2025-01",
+      "batch": "Winter 2025",
+      "yc_mentions": 7,
+      "yc_index": 33.3
+    },
+    {
+      "concept": "chatbots",
+      "month": "2025-04",
+      "batch": "Spring 2025",
+      "yc_mentions": 4,
+      "yc_index": 19.0
+    },
+    {
+      "concept": "chatbots",
+      "month": "2025-07",
+      "batch": "Summer 2025",
+      "yc_mentions": 9,
+      "yc_index": 42.9
+    },
+    {
+      "concept": "chatbots",
+      "month": "2025-10",
+      "batch": "Fall 2025",
+      "yc_mentions": 10,
+      "yc_index": 47.6
+    },
+    {
+      "concept": "chatbots",
+      "month": "2026-01",
+      "batch": "Winter 2026",
+      "yc_mentions": 1,
+      "yc_index": 4.8
+    },
+    {
+      "concept": "chatbots",
+      "month": "2026-04",
+      "batch": "Spring 2026",
+      "yc_mentions": 1,
+      "yc_index": 4.8
+    },
+    {
+      "concept": "chatbots",
+      "month": "2026-07",
+      "batch": "Summer 2026",
+      "yc_mentions": 5,
+      "yc_index": 23.8
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "month": "2023-07",
+      "batch": "Summer 2023",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "month": "2024-01",
+      "batch": "Winter 2024",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "month": "2024-07",
+      "batch": "Summer 2024",
+      "yc_mentions": 1,
+      "yc_index": 33.3
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "month": "2024-10",
+      "batch": "Fall 2024",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "month": "2025-01",
+      "batch": "Winter 2025",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "month": "2025-04",
+      "batch": "Spring 2025",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "month": "2025-07",
+      "batch": "Summer 2025",
+      "yc_mentions": 3,
+      "yc_index": 100.0
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "month": "2025-10",
+      "batch": "Fall 2025",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "month": "2026-01",
+      "batch": "Winter 2026",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "month": "2026-04",
+      "batch": "Spring 2026",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "month": "2026-07",
+      "batch": "Summer 2026",
+      "yc_mentions": 2,
+      "yc_index": 66.7
+    },
+    {
+      "concept": "voice_ai",
+      "month": "2023-07",
+      "batch": "Summer 2023",
+      "yc_mentions": 2,
+      "yc_index": 33.3
+    },
+    {
+      "concept": "voice_ai",
+      "month": "2024-01",
+      "batch": "Winter 2024",
+      "yc_mentions": 5,
+      "yc_index": 83.3
+    },
+    {
+      "concept": "voice_ai",
+      "month": "2024-07",
+      "batch": "Summer 2024",
+      "yc_mentions": 3,
+      "yc_index": 50.0
+    },
+    {
+      "concept": "voice_ai",
+      "month": "2024-10",
+      "batch": "Fall 2024",
+      "yc_mentions": 1,
+      "yc_index": 16.7
+    },
+    {
+      "concept": "voice_ai",
+      "month": "2025-01",
+      "batch": "Winter 2025",
+      "yc_mentions": 6,
+      "yc_index": 100.0
+    },
+    {
+      "concept": "voice_ai",
+      "month": "2025-04",
+      "batch": "Spring 2025",
+      "yc_mentions": 1,
+      "yc_index": 16.7
+    },
+    {
+      "concept": "voice_ai",
+      "month": "2025-07",
+      "batch": "Summer 2025",
+      "yc_mentions": 4,
+      "yc_index": 66.7
+    },
+    {
+      "concept": "voice_ai",
+      "month": "2025-10",
+      "batch": "Fall 2025",
+      "yc_mentions": 3,
+      "yc_index": 50.0
+    },
+    {
+      "concept": "voice_ai",
+      "month": "2026-01",
+      "batch": "Winter 2026",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "voice_ai",
+      "month": "2026-04",
+      "batch": "Spring 2026",
+      "yc_mentions": 0,
+      "yc_index": 0.0
+    },
+    {
+      "concept": "voice_ai",
+      "month": "2026-07",
+      "batch": "Summer 2026",
+      "yc_mentions": 4,
+      "yc_index": 66.7
+    }
+  ],
+  "github": [
+    {
+      "concept": "agents",
+      "window": "2023-H1",
+      "start": "2023-03-01",
+      "end": "2023-06-30",
+      "github_repositories": 387,
+      "end_month": "2023-06",
+      "github_index": 0.5
+    },
+    {
+      "concept": "agents",
+      "window": "2023-H2",
+      "start": "2023-07-01",
+      "end": "2023-12-31",
+      "github_repositories": 828,
+      "end_month": "2023-12",
+      "github_index": 1.0
+    },
+    {
+      "concept": "agents",
+      "window": "2024-H1",
+      "start": "2024-01-01",
+      "end": "2024-06-30",
+      "github_repositories": 1844,
+      "end_month": "2024-06",
+      "github_index": 2.3
+    },
+    {
+      "concept": "agents",
+      "window": "2024-H2",
+      "start": "2024-07-01",
+      "end": "2024-12-31",
+      "github_repositories": 4817,
+      "end_month": "2024-12",
+      "github_index": 5.9
+    },
+    {
+      "concept": "agents",
+      "window": "2025-Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "github_repositories": 10198,
+      "end_month": "2025-03",
+      "github_index": 12.5
+    },
+    {
+      "concept": "agents",
+      "window": "2025-Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "github_repositories": 16388,
+      "end_month": "2025-06",
+      "github_index": 20.0
+    },
+    {
+      "concept": "agents",
+      "window": "2025-Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "github_repositories": 22723,
+      "end_month": "2025-09",
+      "github_index": 27.8
+    },
+    {
+      "concept": "agents",
+      "window": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "github_repositories": 24943,
+      "end_month": "2025-12",
+      "github_index": 30.5
+    },
+    {
+      "concept": "agents",
+      "window": "2026-Q1",
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "github_repositories": 60384,
+      "end_month": "2026-03",
+      "github_index": 73.8
+    },
+    {
+      "concept": "agents",
+      "window": "2026-Q2",
+      "start": "2026-04-01",
+      "end": "2026-06-30",
+      "github_repositories": 81843,
+      "end_month": "2026-06",
+      "github_index": 100.0
+    },
+    {
+      "concept": "chatbots",
+      "window": "2023-H1",
+      "start": "2023-03-01",
+      "end": "2023-06-30",
+      "github_repositories": 16537,
+      "end_month": "2023-06",
+      "github_index": 19.5
+    },
+    {
+      "concept": "chatbots",
+      "window": "2023-H2",
+      "start": "2023-07-01",
+      "end": "2023-12-31",
+      "github_repositories": 28350,
+      "end_month": "2023-12",
+      "github_index": 33.4
+    },
+    {
+      "concept": "chatbots",
+      "window": "2024-H1",
+      "start": "2024-01-01",
+      "end": "2024-06-30",
+      "github_repositories": 39281,
+      "end_month": "2024-06",
+      "github_index": 46.2
+    },
+    {
+      "concept": "chatbots",
+      "window": "2024-H2",
+      "start": "2024-07-01",
+      "end": "2024-12-31",
+      "github_repositories": 58758,
+      "end_month": "2024-12",
+      "github_index": 69.2
+    },
+    {
+      "concept": "chatbots",
+      "window": "2025-Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "github_repositories": 44703,
+      "end_month": "2025-03",
+      "github_index": 52.6
+    },
+    {
+      "concept": "chatbots",
+      "window": "2025-Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "github_repositories": 60746,
+      "end_month": "2025-06",
+      "github_index": 71.5
+    },
+    {
+      "concept": "chatbots",
+      "window": "2025-Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "github_repositories": 73628,
+      "end_month": "2025-09",
+      "github_index": 86.7
+    },
+    {
+      "concept": "chatbots",
+      "window": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "github_repositories": 63068,
+      "end_month": "2025-12",
+      "github_index": 74.2
+    },
+    {
+      "concept": "chatbots",
+      "window": "2026-Q1",
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "github_repositories": 67609,
+      "end_month": "2026-03",
+      "github_index": 79.6
+    },
+    {
+      "concept": "chatbots",
+      "window": "2026-Q2",
+      "start": "2026-04-01",
+      "end": "2026-06-30",
+      "github_repositories": 84944,
+      "end_month": "2026-06",
+      "github_index": 100.0
+    },
+    {
+      "concept": "voice_ai",
+      "window": "2023-H1",
+      "start": "2023-03-01",
+      "end": "2023-06-30",
+      "github_repositories": 50,
+      "end_month": "2023-06",
+      "github_index": 1.9
+    },
+    {
+      "concept": "voice_ai",
+      "window": "2023-H2",
+      "start": "2023-07-01",
+      "end": "2023-12-31",
+      "github_repositories": 129,
+      "end_month": "2023-12",
+      "github_index": 4.9
+    },
+    {
+      "concept": "voice_ai",
+      "window": "2024-H1",
+      "start": "2024-01-01",
+      "end": "2024-06-30",
+      "github_repositories": 185,
+      "end_month": "2024-06",
+      "github_index": 7.0
+    },
+    {
+      "concept": "voice_ai",
+      "window": "2024-H2",
+      "start": "2024-07-01",
+      "end": "2024-12-31",
+      "github_repositories": 279,
+      "end_month": "2024-12",
+      "github_index": 10.5
+    },
+    {
+      "concept": "voice_ai",
+      "window": "2025-Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "github_repositories": 269,
+      "end_month": "2025-03",
+      "github_index": 10.1
+    },
+    {
+      "concept": "voice_ai",
+      "window": "2025-Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "github_repositories": 598,
+      "end_month": "2025-06",
+      "github_index": 22.5
+    },
+    {
+      "concept": "voice_ai",
+      "window": "2025-Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "github_repositories": 887,
+      "end_month": "2025-09",
+      "github_index": 33.4
+    },
+    {
+      "concept": "voice_ai",
+      "window": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "github_repositories": 1141,
+      "end_month": "2025-12",
+      "github_index": 43.0
+    },
+    {
+      "concept": "voice_ai",
+      "window": "2026-Q1",
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "github_repositories": 2209,
+      "end_month": "2026-03",
+      "github_index": 83.3
+    },
+    {
+      "concept": "voice_ai",
+      "window": "2026-Q2",
+      "start": "2026-04-01",
+      "end": "2026-06-30",
+      "github_repositories": 2652,
+      "end_month": "2026-06",
+      "github_index": 100.0
+    },
+    {
+      "concept": "agent_skills",
+      "window": "2023-H1",
+      "start": "2023-03-01",
+      "end": "2023-06-30",
+      "github_repositories": 3,
+      "end_month": "2023-06",
+      "github_index": 0.0
+    },
+    {
+      "concept": "agent_skills",
+      "window": "2023-H2",
+      "start": "2023-07-01",
+      "end": "2023-12-31",
+      "github_repositories": 17,
+      "end_month": "2023-12",
+      "github_index": 0.1
+    },
+    {
+      "concept": "agent_skills",
+      "window": "2024-H1",
+      "start": "2024-01-01",
+      "end": "2024-06-30",
+      "github_repositories": 19,
+      "end_month": "2024-06",
+      "github_index": 0.1
+    },
+    {
+      "concept": "agent_skills",
+      "window": "2024-H2",
+      "start": "2024-07-01",
+      "end": "2024-12-31",
+      "github_repositories": 13,
+      "end_month": "2024-12",
+      "github_index": 0.1
+    },
+    {
+      "concept": "agent_skills",
+      "window": "2025-Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "github_repositories": 21,
+      "end_month": "2025-03",
+      "github_index": 0.1
+    },
+    {
+      "concept": "agent_skills",
+      "window": "2025-Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "github_repositories": 27,
+      "end_month": "2025-06",
+      "github_index": 0.2
+    },
+    {
+      "concept": "agent_skills",
+      "window": "2025-Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "github_repositories": 42,
+      "end_month": "2025-09",
+      "github_index": 0.2
+    },
+    {
+      "concept": "agent_skills",
+      "window": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "github_repositories": 504,
+      "end_month": "2025-12",
+      "github_index": 3.0
+    },
+    {
+      "concept": "agent_skills",
+      "window": "2026-Q1",
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "github_repositories": 10472,
+      "end_month": "2026-03",
+      "github_index": 61.6
+    },
+    {
+      "concept": "agent_skills",
+      "window": "2026-Q2",
+      "start": "2026-04-01",
+      "end": "2026-06-30",
+      "github_repositories": 17003,
+      "end_month": "2026-06",
+      "github_index": 100.0
+    },
+    {
+      "concept": "agent_harnesses",
+      "window": "2023-H1",
+      "start": "2023-03-01",
+      "end": "2023-06-30",
+      "github_repositories": 4,
+      "end_month": "2023-06",
+      "github_index": 0.1
+    },
+    {
+      "concept": "agent_harnesses",
+      "window": "2023-H2",
+      "start": "2023-07-01",
+      "end": "2023-12-31",
+      "github_repositories": 3,
+      "end_month": "2023-12",
+      "github_index": 0.1
+    },
+    {
+      "concept": "agent_harnesses",
+      "window": "2024-H1",
+      "start": "2024-01-01",
+      "end": "2024-06-30",
+      "github_repositories": 4,
+      "end_month": "2024-06",
+      "github_index": 0.1
+    },
+    {
+      "concept": "agent_harnesses",
+      "window": "2024-H2",
+      "start": "2024-07-01",
+      "end": "2024-12-31",
+      "github_repositories": 4,
+      "end_month": "2024-12",
+      "github_index": 0.1
+    },
+    {
+      "concept": "agent_harnesses",
+      "window": "2025-Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "github_repositories": 8,
+      "end_month": "2025-03",
+      "github_index": 0.3
+    },
+    {
+      "concept": "agent_harnesses",
+      "window": "2025-Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "github_repositories": 12,
+      "end_month": "2025-06",
+      "github_index": 0.4
+    },
+    {
+      "concept": "agent_harnesses",
+      "window": "2025-Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "github_repositories": 14,
+      "end_month": "2025-09",
+      "github_index": 0.5
+    },
+    {
+      "concept": "agent_harnesses",
+      "window": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "github_repositories": 63,
+      "end_month": "2025-12",
+      "github_index": 2.3
+    },
+    {
+      "concept": "agent_harnesses",
+      "window": "2026-Q1",
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "github_repositories": 679,
+      "end_month": "2026-03",
+      "github_index": 24.7
+    },
+    {
+      "concept": "agent_harnesses",
+      "window": "2026-Q2",
+      "start": "2026-04-01",
+      "end": "2026-06-30",
+      "github_repositories": 2752,
+      "end_month": "2026-06",
+      "github_index": 100.0
+    },
+    {
+      "concept": "agent_loops",
+      "window": "2023-H1",
+      "start": "2023-03-01",
+      "end": "2023-06-30",
+      "github_repositories": 1,
+      "end_month": "2023-06",
+      "github_index": 0.1
+    },
+    {
+      "concept": "agent_loops",
+      "window": "2023-H2",
+      "start": "2023-07-01",
+      "end": "2023-12-31",
+      "github_repositories": 1,
+      "end_month": "2023-12",
+      "github_index": 0.1
+    },
+    {
+      "concept": "agent_loops",
+      "window": "2024-H1",
+      "start": "2024-01-01",
+      "end": "2024-06-30",
+      "github_repositories": 3,
+      "end_month": "2024-06",
+      "github_index": 0.2
+    },
+    {
+      "concept": "agent_loops",
+      "window": "2024-H2",
+      "start": "2024-07-01",
+      "end": "2024-12-31",
+      "github_repositories": 2,
+      "end_month": "2024-12",
+      "github_index": 0.1
+    },
+    {
+      "concept": "agent_loops",
+      "window": "2025-Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "github_repositories": 4,
+      "end_month": "2025-03",
+      "github_index": 0.3
+    },
+    {
+      "concept": "agent_loops",
+      "window": "2025-Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "github_repositories": 24,
+      "end_month": "2025-06",
+      "github_index": 1.6
+    },
+    {
+      "concept": "agent_loops",
+      "window": "2025-Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "github_repositories": 46,
+      "end_month": "2025-09",
+      "github_index": 3.1
+    },
+    {
+      "concept": "agent_loops",
+      "window": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "github_repositories": 69,
+      "end_month": "2025-12",
+      "github_index": 4.7
+    },
+    {
+      "concept": "agent_loops",
+      "window": "2026-Q1",
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "github_repositories": 577,
+      "end_month": "2026-03",
+      "github_index": 39.2
+    },
+    {
+      "concept": "agent_loops",
+      "window": "2026-Q2",
+      "start": "2026-04-01",
+      "end": "2026-06-30",
+      "github_repositories": 1471,
+      "end_month": "2026-06",
+      "github_index": 100.0
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "window": "2023-H1",
+      "start": "2023-03-01",
+      "end": "2023-06-30",
+      "github_repositories": 1,
+      "end_month": "2023-06",
+      "github_index": 1.7
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "window": "2023-H2",
+      "start": "2023-07-01",
+      "end": "2023-12-31",
+      "github_repositories": 1,
+      "end_month": "2023-12",
+      "github_index": 1.7
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "window": "2024-H1",
+      "start": "2024-01-01",
+      "end": "2024-06-30",
+      "github_repositories": 1,
+      "end_month": "2024-06",
+      "github_index": 1.7
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "window": "2024-H2",
+      "start": "2024-07-01",
+      "end": "2024-12-31",
+      "github_repositories": 3,
+      "end_month": "2024-12",
+      "github_index": 5.0
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "window": "2025-Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "github_repositories": 5,
+      "end_month": "2025-03",
+      "github_index": 8.3
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "window": "2025-Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "github_repositories": 3,
+      "end_month": "2025-06",
+      "github_index": 5.0
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "window": "2025-Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "github_repositories": 6,
+      "end_month": "2025-09",
+      "github_index": 10.0
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "window": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "github_repositories": 7,
+      "end_month": "2025-12",
+      "github_index": 11.7
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "window": "2026-Q1",
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "github_repositories": 45,
+      "end_month": "2026-03",
+      "github_index": 75.0
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "window": "2026-Q2",
+      "start": "2026-04-01",
+      "end": "2026-06-30",
+      "github_repositories": 60,
+      "end_month": "2026-06",
+      "github_index": 100.0
+    },
+    {
+      "concept": "automated_research",
+      "window": "2023-H1",
+      "start": "2023-03-01",
+      "end": "2023-06-30",
+      "github_repositories": 5,
+      "end_month": "2023-06",
+      "github_index": 0.1
+    },
+    {
+      "concept": "automated_research",
+      "window": "2023-H2",
+      "start": "2023-07-01",
+      "end": "2023-12-31",
+      "github_repositories": 77,
+      "end_month": "2023-12",
+      "github_index": 1.5
+    },
+    {
+      "concept": "automated_research",
+      "window": "2024-H1",
+      "start": "2024-01-01",
+      "end": "2024-06-30",
+      "github_repositories": 63,
+      "end_month": "2024-06",
+      "github_index": 1.2
+    },
+    {
+      "concept": "automated_research",
+      "window": "2024-H2",
+      "start": "2024-07-01",
+      "end": "2024-12-31",
+      "github_repositories": 153,
+      "end_month": "2024-12",
+      "github_index": 3.0
+    },
+    {
+      "concept": "automated_research",
+      "window": "2025-Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "github_repositories": 358,
+      "end_month": "2025-03",
+      "github_index": 7.1
+    },
+    {
+      "concept": "automated_research",
+      "window": "2025-Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "github_repositories": 717,
+      "end_month": "2025-06",
+      "github_index": 14.1
+    },
+    {
+      "concept": "automated_research",
+      "window": "2025-Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "github_repositories": 1321,
+      "end_month": "2025-09",
+      "github_index": 26.0
+    },
+    {
+      "concept": "automated_research",
+      "window": "2025-Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "github_repositories": 1335,
+      "end_month": "2025-12",
+      "github_index": 26.3
+    },
+    {
+      "concept": "automated_research",
+      "window": "2026-Q1",
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "github_repositories": 2777,
+      "end_month": "2026-03",
+      "github_index": 54.7
+    },
+    {
+      "concept": "automated_research",
+      "window": "2026-Q2",
+      "start": "2026-04-01",
+      "end": "2026-06-30",
+      "github_repositories": 5073,
+      "end_month": "2026-06",
+      "github_index": 100.0
+    }
+  ],
+  "summary": [
+    {
+      "concept": "agents",
+      "label": "Agents",
+      "google_acceleration_month": "2025-08",
+      "google_peak_month": "2026-06",
+      "yc_first_cohort_month": "2023-07",
+      "yc_peak_cohort_month": "2024-01",
+      "github_acceleration_window": "2025-Q3",
+      "github_peak_window": "2026-Q2",
+      "interpretation": "Search acceleration: 2025-08; founder-language entry: 2023-07; GitHub acceleration: 2025-Q3."
+    },
+    {
+      "concept": "chatbots",
+      "label": "Chatbots",
+      "google_acceleration_month": "2023-03",
+      "google_peak_month": "2026-02",
+      "yc_first_cohort_month": "2023-07",
+      "yc_peak_cohort_month": "2024-01",
+      "github_acceleration_window": "2023-H2",
+      "github_peak_window": "2026-Q2",
+      "interpretation": "Search acceleration: 2023-03; founder-language entry: 2023-07; GitHub acceleration: 2023-H2."
+    },
+    {
+      "concept": "voice_ai",
+      "label": "Voice AI",
+      "google_acceleration_month": "2023-04",
+      "google_peak_month": "2026-05",
+      "yc_first_cohort_month": "2023-07",
+      "yc_peak_cohort_month": "2025-01",
+      "github_acceleration_window": "2025-Q3",
+      "github_peak_window": "2026-Q2",
+      "interpretation": "Search acceleration: 2023-04; founder-language entry: 2023-07; GitHub acceleration: 2025-Q3."
+    },
+    {
+      "concept": "agent_skills",
+      "label": "Agent skills",
+      "google_acceleration_month": "2026-01",
+      "google_peak_month": "2026-06",
+      "yc_first_cohort_month": "2025-01",
+      "yc_peak_cohort_month": "2025-01",
+      "github_acceleration_window": "2026-Q1",
+      "github_peak_window": "2026-Q2",
+      "interpretation": "Search acceleration: 2026-01; founder-language entry: 2025-01; GitHub acceleration: 2026-Q1."
+    },
+    {
+      "concept": "agent_harnesses",
+      "label": "Agent harnesses",
+      "google_acceleration_month": "2026-03",
+      "google_peak_month": "2026-06",
+      "yc_first_cohort_month": "2024-10",
+      "yc_peak_cohort_month": "2024-10",
+      "github_acceleration_window": "2026-Q2",
+      "github_peak_window": "2026-Q2",
+      "interpretation": "Search acceleration: 2026-03; founder-language entry: 2024-10; GitHub acceleration: 2026-Q2."
+    },
+    {
+      "concept": "agent_loops",
+      "label": "Agent loops",
+      "google_acceleration_month": "2025-08",
+      "google_peak_month": "2026-06",
+      "yc_first_cohort_month": "2023-07",
+      "yc_peak_cohort_month": "2024-07",
+      "github_acceleration_window": "2026-Q1",
+      "github_peak_window": "2026-Q2",
+      "interpretation": "Search acceleration: 2025-08; founder-language entry: 2023-07; GitHub acceleration: 2026-Q1."
+    },
+    {
+      "concept": "recursive_self_improvement",
+      "label": "Recursive self-improvement",
+      "google_acceleration_month": "2025-07",
+      "google_peak_month": "2026-03",
+      "yc_first_cohort_month": "2024-07",
+      "yc_peak_cohort_month": "2025-07",
+      "github_acceleration_window": "2026-Q1",
+      "github_peak_window": "2026-Q2",
+      "interpretation": "Search acceleration: 2025-07; founder-language entry: 2024-07; GitHub acceleration: 2026-Q1."
+    },
+    {
+      "concept": "automated_research",
+      "label": "Automated research",
+      "google_acceleration_month": "2025-08",
+      "google_peak_month": "2026-06",
+      "yc_first_cohort_month": "2023-07",
+      "yc_peak_cohort_month": "2023-07",
+      "github_acceleration_window": "2025-Q3",
+      "github_peak_window": "2026-Q2",
+      "interpretation": "Search acceleration: 2025-08; founder-language entry: 2023-07; GitHub acceleration: 2025-Q3."
+    }
+  ],
+  "method_note": "Every stream is indexed to its own concept maximum for timing comparison. Google is relative search interest; YC counts matches in public descriptions among the directory AI-discovery set and is plotted at cohort month; GitHub counts new non-fork public repositories returned by scoped repository search in the stated windows. None is a market-share measure."
+}

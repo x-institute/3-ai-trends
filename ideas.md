@@ -83,3 +83,9 @@ The wordmark uses a stacked editorial lockup: **AI / Signals / Atlas** with a sm
 ## Signature Brand Color
 
 **Atlas Cobalt — #2859C5.** A deep, disciplined blue used for Google-attention evidence and the core identity mark.
+
+## Style Decisions
+
+1. The stacked **AI / Signals / Atlas** lockup and three-strand knot are primary brand objects at page entry, not utility-scale decoration.
+2. Sparse and qualified data are rendered as annotated evidence with visible cadence and coverage notes; they never appear as unexplained empty charts.
+3. The cobalt, persimmon, and verdigris **Signal Thread** recurs across founder, keyword, and developer sections as the continuous visual key for the three evidence streams.

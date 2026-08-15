@@ -5,3 +5,7 @@
 - [x] Verify that every displayed monthly comparison ends in July 2026.
 - [x] Aggregate detected signed coding-agent commits by agent type through July 2026.
 - [x] Add an agent-by-agent signed-commit trend map to the GitHub section.
+- [x] Define keyword meanings and source-specific proxies for the three-stream comparison.
+- [x] Build monthly Google, YC, and GitHub keyword panels through July 2026.
+- [x] Identify and document meaningful timing differences across streams.
+- [x] Add a unified interactive keyword comparison view to the research atlas.
