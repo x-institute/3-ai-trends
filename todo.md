@@ -22,3 +22,6 @@
 - [x] Confirm whether the repository path is unavailable or the connected account lacks access.
 - [ ] Verify that the configured GitHub remote is reachable after the requested retry.
 - [ ] Save and synchronize the validated coding-signature correction to GitHub.
+- [x] Trace the July 2026 all-zero GitHub keyword-density values from source to chart.
+- [x] Correct the GitHub missing-window treatment and chart presentation.
+- [x] Verify that July 2026 is not shown as a false zero for every GitHub keyword.

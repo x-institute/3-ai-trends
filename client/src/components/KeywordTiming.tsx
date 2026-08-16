@@ -12,7 +12,7 @@ const timing: any = keywordData;
 const streamMeta = {
   google: { label: "Google search", color: "#2859C5", icon: Search, cadence: "monthly relative interest" },
   yc: { label: "YC language", color: "#E26B3A", icon: Sparkles, cadence: "cohort-period description share" },
-  github: { label: "GitHub building", color: "#13826D", icon: Github, cadence: "new public repository windows" },
+  github: { label: "GitHub building", color: "#13826D", icon: Github, cadence: "new public repository windows · last observed: 2026 Q2" },
 };
 
 const reading: Record<string, string> = {
@@ -111,7 +111,7 @@ export default function KeywordTiming() {
       <div className="density-head"><div><span className="mini-label">MULTI-KEYWORD DENSITY TREND</span><h3 id="density-title">Compare the same moment<br /><em>across keywords and platforms.</em></h3></div><div><p>Choose up to five concepts. Every lane uses the same 0–100 <b>within-keyword density index</b>, so you can compare the timing and shape of several concepts at once without treating the platforms as the same unit.</p><span className="density-hint">Google is observed monthly. YC and GitHub are honest step functions across their stated cohort and search windows.</span></div></div>
       <div className="density-selector" role="group" aria-label="Keywords in density chart">{timing.concepts.map((item: any) => <button key={item.id} onClick={() => toggleDensityKeyword(item.id)} className={densityKeywords.includes(item.id) ? "selected" : ""} disabled={!densityKeywords.includes(item.id) && densityKeywords.length >= 5}><i style={{ background: keywordColors[item.id] }} />{item.label}{item.id === "recursive_self_improvement" && <small>RSI</small>}</button>)}</div>
       <div className="density-lanes"><DensityLane platform="google" values={densityTimeline} selectedKeywords={densityKeywords} labels={conceptLabels} /><DensityLane platform="yc" values={densityTimeline} selectedKeywords={densityKeywords} labels={conceptLabels} /><DensityLane platform="github" values={densityTimeline} selectedKeywords={densityKeywords} labels={conceptLabels} /></div>
-      <div className="density-foot"><CircleAlert size={16} /><span><b>How to read it:</b> a rise is an increase relative to that keyword’s own peak within the named platform. It is a density-and-timing comparison, not a claim that a 70 on Google equals a 70 on YC or GitHub.</span></div>
+      <div className="density-foot"><CircleAlert size={16} /><span><b>How to read it:</b> a rise is an increase relative to that keyword’s own peak within the named platform. It is a density-and-timing comparison, not a claim that a 70 on Google equals a 70 on YC or GitHub. <b>GitHub ends at 2026 Q2:</b> July is unobserved and rendered as a gap, not a zero.</span></div>
     </section>
 
     <div className="keyword-map-shell">
