@@ -40,6 +40,8 @@ import KeywordTiming from "@/components/KeywordTiming";
 
 const research: any = researchData;
 
+const asset = (name: string) => `${import.meta.env.BASE_URL}atlas/${name}`;
+
 const signalMeta = {
   google: { name: "Google attention", color: "#2859C5", icon: Search },
   yc: { name: "YC founder supply", color: "#E26B3A", icon: Sparkles },
@@ -99,7 +101,7 @@ export default function Home() {
     <div className="atlas-shell">
       <header className="topbar">
         <a className="brand" href="#top" aria-label="AI Signals Atlas home">
-          <img src="/manus-storage/atlas-signal-knot_182b341b.png" alt="" />
+          <img src={asset("signal-knot.png")} alt="" />
           <span>AI / Signals<br /><b>Atlas</b></span>
         </a>
         <nav aria-label="Primary navigation">
@@ -114,8 +116,8 @@ export default function Home() {
 
       <main id="top">
         <section className="hero">
-          <img className="hero-field" src="/manus-storage/atlas-hero-field_3eaa5865.png" alt="" />
-          <div className="hero-brand-object" aria-hidden="true"><img src="/manus-storage/atlas-signal-knot_182b341b.png" alt="" /><div><span>AI / SIGNALS</span><b>ATLAS</b></div><i /><i /><i /></div>
+          <img className="hero-field" src={asset("hero-field.png")} alt="" />
+          <div className="hero-brand-object" aria-hidden="true"><img src={asset("signal-knot.png")} alt="" /><div><span>AI / SIGNALS</span><b>ATLAS</b></div><i /><i /><i /></div>
           <div className="hero-copy">
             <div className="eyebrow"><span className="live-dot" /> EVIDENCE ATLAS · 14 AUG 2026</div>
             <h1>What the world <em>searches,</em><br />what founders <em>sell,</em><br />what developers <em>build.</em></h1>
@@ -171,7 +173,7 @@ export default function Home() {
 
         <section className="founder-section" id="founders">
           <div className="section-signal-thread" aria-hidden="true"><i /><i /><i /></div>
-          <div className="section-wide-head"><div><SectionKicker index="02" stream="yc">Founder supply</SectionKicker><h2>YC’s AI tag is useful.<br /><em>It is not a census.</em></h2></div><div className="photo-note"><img src="/manus-storage/atlas-evidence-collage_bd1cda6a.png" alt="Abstract paper collage representing three evidence streams." /></div></div>
+          <div className="section-wide-head"><div><SectionKicker index="02" stream="yc">Founder supply</SectionKicker><h2>YC’s AI tag is useful.<br /><em>It is not a census.</em></h2></div><div className="photo-note"><img src={asset("evidence-collage.png")} alt="Abstract paper collage representing three evidence streams." /></div></div>
           <div className="audit-grid" id="audit">
             <article className="audit-hero-card"><span className="mini-label">DIRECT PUBLIC-DESCRIPTION REVIEW</span><div className="precision-number">75.0<span>–88.6%</span></div><p>of a random sample of <b>44 directory AI-tagged companies</b> were clearly AI-core under a strict reading; the range treats six sparse descriptions as unresolved rather than forcing a result.</p><div className="precision-bar"><i style={{ width: "75%" }} /><em style={{ width: "13.6%" }} /></div><div className="precision-labels"><span>33 AI-core</span><span>6 ambiguous</span><span>5 not evidenced</span></div></article>
             <article className="audit-side-card"><BadgeCheck size={24} /><h3>Clear false negatives exist.</h3><p>All <b>12 reviewed semantic AI candidates without an AI directory tag</b> were AI-core. This is not a recall estimate—the sample was intentionally semantic—but it proves tag-only analysis misses real companies.</p><SourceChip tone="yc">MANUAL AUDIT · N=56</SourceChip></article>
@@ -206,13 +208,13 @@ export default function Home() {
         </section>
 
         <section className="methods-section" id="methods">
-          <img className="method-stamp" src="/manus-storage/atlas-method-stamp_f8a6113c.png" alt="" />
+          <img className="method-stamp" src={asset("method-stamp.png")} alt="" />
           <div className="methods-copy"><SectionKicker index="05">Methods & limits</SectionKicker><h2>The trend is real.<br /><em>The measurement is qualified.</em></h2><p>Each stream is useful only if its constraint travels with it. The site is designed to keep those constraints close to the interpretation rather than relegating them to a disclaimer.</p></div>
           <div className="methods-grid"><article><Search size={20} /><h3>Google</h3><p>Normalized, sampled relative interest. A spike is not user count, preference, or revenue.</p></article><article><Sparkles size={20} /><h3>YC</h3><p>Public directory descriptions from a selective accelerator. Manual sample evidence, not startup-population estimates.</p></article><article><Github size={20} /><h3>GitHub</h3><p>Public-only traces. Signed commits omit private and unsigned activity; repo descriptions do not prove AI-authored code.</p></article></div>
           <div className="source-list"><BookOpen size={18} />{research.sources.map((source: any) => <a key={source.id} href={source.url} target="_blank" rel="noreferrer">{source.label}<ExternalLink size={12} /></a>)}</div>
         </section>
       </main>
-      <footer><div className="brand footer-brand"><img src="/manus-storage/atlas-signal-knot_182b341b.png" alt="" /><span>AI / Signals <b>Atlas</b></span></div><p>Evidence first. Limits visible. © 2026</p><a href="#top">Back to top <ArrowUpRight size={15} /></a></footer>
+      <footer><div className="brand footer-brand"><img src={asset("signal-knot.png")} alt="" /><span>AI / Signals <b>Atlas</b></span></div><p>Evidence first. Limits visible. © 2026</p><a href="#top">Back to top <ArrowUpRight size={15} /></a></footer>
     </div>
   );
 }
