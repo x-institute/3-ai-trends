@@ -15,3 +15,10 @@
 - [x] Define a shared density index and platform-lane structure for multi-keyword comparison.
 - [x] Generate aligned monthly density series for Google, YC, and GitHub.
 - [x] Add an interactive multi-keyword trend figure while retaining the cohort-period map.
+- [x] Trace the raw tracker classification for pre-April 2025 Claude Code observations.
+- [x] Validate agent start dates against first-party release announcements.
+- [x] Rebuild the signature chart with date-valid agent histories and an explicit provenance note.
+- [x] Inspect the configured GitHub remote without modifying branches or remotes.
+- [x] Confirm whether the repository path is unavailable or the connected account lacks access.
+- [ ] Verify that the configured GitHub remote is reachable after the requested retry.
+- [ ] Save and synchronize the validated coding-signature correction to GitHub.

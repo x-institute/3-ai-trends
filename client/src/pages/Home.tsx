@@ -62,7 +62,7 @@ const githubModes = {
 };
 
 const agentColors: Record<string, string> = {
-  "Claude Code": "#2859C5", Cursor: "#E26B3A", "GitHub Copilot": "#13826D", Devin: "#7A3E78",
+  "Anthropic noreply proxy": "#2859C5", Cursor: "#E26B3A", "GitHub Copilot": "#13826D", Devin: "#7A3E78",
   Aider: "#B67A10", "OpenAI Codex": "#2778A7", OpenCode: "#9B4C38", "Google Jules": "#7B9367", "Amazon Q": "#766B61",
 };
 
@@ -193,9 +193,9 @@ export default function Home() {
             <div className="github-key"><Braces size={19} /><span><b>What changed:</b> by 2026, the public code conversation is not just model access. It is increasingly about agent execution, routing, tool connections, memory, and fleets of coding agents.</span></div>
           </div>
           <div className="agent-map-card">
-            <div className="agent-map-head"><div><span className="mini-label">COMPLETED MONTHS ONLY · SHARE OF DETECTED SIGNED AGENT COMMITS</span><h3>Which coding agents leave public commit signatures?</h3><p>The map separates every detected agent family. It describes the mix of signatures observed by the tracker—not overall coding-agent market share.</p></div><SourceChip tone="github">Agent signature map</SourceChip></div>
+            <div className="agent-map-head"><div><span className="mini-label">COMPLETED MONTHS ONLY · SHARE OF DETECTABLE SIGNATURE FAMILIES</span><h3>Which signature families appear in public commits?</h3><p>The map separates observable commit-signature families. The Anthropic email-domain series is a broad proxy, not a product-specific Claude Code history.</p></div><SourceChip tone="github">Signature-family map</SourceChip></div>
             <div className="agent-map-chart"><ResponsiveContainer width="100%" height={370}><AreaChart data={agentTimeline} stackOffset="expand" margin={{ top: 15, right: 10, left: -18, bottom: 0 }}><CartesianGrid vertical={false} stroke="#D4E0D9" /><XAxis dataKey="shortMonth" tick={{ fill: "#536B62", fontSize: 11 }} interval={2} axisLine={false} tickLine={false} /><YAxis tickFormatter={(value) => `${Math.round(value * 100)}%`} tick={{ fill: "#536B62", fontSize: 11 }} axisLine={false} tickLine={false} width={42} /><Tooltip content={<TooltipBox />} /><Legend iconType="circle" wrapperStyle={{ fontSize: 11, paddingTop: 12 }} />{agentTypes.map((agent) => <Area key={agent} type="monotone" dataKey={`${agent} share`} name={agent} stackId="agent-mix" stroke={agentColors[agent]} fill={agentColors[agent]} fillOpacity={0.92} />)}</AreaChart></ResponsiveContainer></div>
-            <div className="agent-map-foot"><div><span>Latest full month</span><b>{latestAgentMonth?.month}</b></div>{latestAgentRank.slice(0, 3).map((row) => <div key={row.agent}><i style={{ background: agentColors[row.agent] }} /><span>{row.agent}</span><b>{Math.round(row.share)}%</b></div>)}<p>Cursor merges editor and background signatures. March ’25 is omitted because the tracker has only one observed day.</p></div>
+            <div className="agent-map-foot"><div><span>Latest full month</span><b>{latestAgentMonth?.month}</b></div>{latestAgentRank.slice(0, 3).map((row) => <div key={row.agent}><i style={{ background: agentColors[row.agent] }} /><span>{row.agent}</span><b>{Math.round(row.share)}%</b></div>)}<p>Anthropic noreply is a broad commit-message proxy, not a unique Claude Code marker. Cursor merges editor and background signatures; March ’25 is omitted because the tracker has only one observed day.</p></div>
           </div>
           <div className="github-mini-grid"><article><span>REPOSITORY SELF-DESCRIPTION</span><b>31,381</b><p>new public repositories matched “AI agent” in Jul ’26</p></article><article><span>SIGNED CODING-AGENT ACTIVITY</span><b>5.72%</b><p>of detected public commits in May ’26, the highest full-month rate in this tracker</p></article><article><span>WHY NOT COMBINE THEM?</span><p>One is self-description; one is a changing topic label; one is partial but behavioral evidence of agent use.</p></article></div>
         </section>
